@@ -1,13 +1,48 @@
 # personal-boilerplate
-Base components for work i do everyday.
 
-Blank package.json for dependencies and setting your own Git repo. 
-Stylus and Gulp inlcuded. There's also a Media query combiner for nesting.
+----------
 
-Header has OG tags, main.css link that will be generated if you execute Gulp.
+Starting point for my web development jobs.
 
-Uses PHP Includes.  
+Based on  [Gulp](http://gulpjs.com/) with [Stylus](http://stylus-lang.com/) and [postCSS](http://postcss.org/).
+Also uses [PHP](https://secure.php.net/) includes.
 
-Src and Dist structure with css nano and uglify
 
-Bye.
+**Features:**
+
+ - Gulpfile ready to run and dependencies listed on package.json file
+ - Minifiers and concatenators
+ - Useful meta tags
+ - old IE Conditionals (and alert for no IE 9 < support)
+ - Some useful vanilla JS scripts (WIP)
+ - Stylus mixins
+ - Media query variables
+
+**How to use:**
+
+    npm install
+
+Will install all dependencies, then:
+
+    gulp
+
+ To run the default function (Starts stylus, creates/minifies CSS and JS files, watches for changes). 
+
+You can also run specific functions: 
+
+    gulp stylus // Runs stylus task only
+    gulp css // Processes css on src folder 
+    gulp compress // Concatenates and minifies JS files
+    gulp images // Image compression
+
+Since the files are .php you need a web server to run them, i recommend [EasyPHP.](http://www.easyphp.org/)
+
+
+
+## Changelog ##
+----------
+
+**1.2**
+
+ - First "commited" version of the boilerplate. Reworked readme, folder structure, gulpfile and some of the JS/Stylus code snippets.
+

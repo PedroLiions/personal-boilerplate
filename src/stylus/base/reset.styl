@@ -30,10 +30,10 @@ footer, header, hgroup, menu, nav, section
 
 body 
 	line-height: 1
+	overflow-x hidden
 	
 body, html 
 	font-size 10px
-	overflow-x hidden
 
 ol, ul 
 	list-style: none
@@ -59,7 +59,7 @@ table
 	&:after 
 		box-sizing: border-box
 		
-	@media (max-width tablet-max)
+	@media $tablet-max
 		&:active, &:focus
 			outline 0 
 			

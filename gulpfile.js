@@ -3,60 +3,50 @@
 var gulp = require('gulp'), 
 stylus = require('gulp-stylus'),
 concat = require('gulp-concat'),
-gcmq = require('gulp-group-css-media-queries'), 
 uglify = require('gulp-uglify'), 
-cssnano = require('gulp-cssnano');
+imgmin = require('gulp-imagemin'),
+postcss = require('gulp-postcss'),
+sourcemaps = require('gulp-sourcemaps'), 
+packer = require('css-mqpacker'),
+prefixes = require('autoprefixer'),
+cssnano = require('cssnano');
 
-
-
-//DEFAULT
-//----------------------------------------------------------------------
-
-gulp.task('default', ['stylus', 'nano', 'compress', 'watch']);
-
-
-// COMPILE
-//----------------------------------------------------------------------
-
-gulp.task('stylus', function(){
+gulp.task('stylus', function() {
 	return gulp.src('src/stylus/*.styl')
 	.pipe(stylus())
 	.pipe(gulp.dest('src'));
 });
 
-//- UGLIFY 
-//-------------------------
+gulp.task('css', function() {
+	var processors = [
+	prefixes({browsers: ['last 3 versions']}),
+	packer(),
+	cssnano(),
+	];
+	return gulp.src('src/*.css')
+	.pipe(sourcemaps.init())
+	.pipe(postcss(processors))
+	.pipe(sourcemaps.write('.'))
+	.pipe(gulp.dest('dist'));
+});
 
 gulp.task('compress', function(){
-	gulp.src(['src/js/vendors.common.js', 'src/js/**/*.model.js', 'src/js/**/*.controller.js', 'src/js/**/*.js'])
+	gulp.src(['src/js/*.js'])
 	.pipe(concat( 'app.js' ))
+	.pipe(uglify())
 	.pipe(gulp.dest('dist'));
-	// .pipe(uglify());
 });
 
-//- CSSNANO 
-//-------------------------
-
-gulp.task('nano', function(){
-	return gulp.src('src/main.css')
-	.pipe(cssnano())
-	.pipe(gulp.dest('dist'));
-});	
+gulp.task('images', function() {
+	gulp.src('images')
+	.pipe(imagemin())
+	.pipe(gulp.dest('images'))
+});
 
 
-// WATCH
-//----------------------------------------------------------------------
+gulp.task('default', ['stylus', 'css', 'compress', 'watch']);
 
 gulp.task('watch', function() {
-	gulp.watch('src/stylus/**/*.styl', ['stylus', 'nano']);
+	gulp.watch('src/stylus/**/*.styl', ['stylus', 'css']);
 	gulp.watch('src/js/**/*.js', ['compress']); 
-});
-
-//MEDIA QUERY COMBINER FOR PREPROCESSOR NESTING 
-//----------------------------------------------------------------------
-
-gulp.task('gcmq', function(){
-	gulp.src('src/*.css')
-	.pipe(gcmq())
-	.pipe(gulp.dest('dist'));
 });
