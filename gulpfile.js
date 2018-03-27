@@ -4,12 +4,12 @@ var gulp = require('gulp'),
 stylus = require('gulp-stylus'),
 concat = require('gulp-concat'),
 uglify = require('gulp-uglify'), 
-imgmin = require('gulp-imagemin'),
 postcss = require('gulp-postcss'),
 sourcemaps = require('gulp-sourcemaps'), 
 packer = require('css-mqpacker'),
 prefixes = require('autoprefixer'),
-cssnano = require('cssnano');
+cssnano = require('cssnano'), 
+pump = require('pump')
 
 gulp.task('stylus', function() {
 	return gulp.src('src/stylus/*.styl')
@@ -21,7 +21,7 @@ gulp.task('css', function() {
 	var processors = [
 	prefixes({browsers: ['last 3 versions']}),
 	packer(),
-	cssnano(),
+	cssnano({zindex: false}),
 	];
 	return gulp.src('src/*.css')
 	.pipe(sourcemaps.init())
@@ -37,10 +37,13 @@ gulp.task('compress', function(){
 	.pipe(gulp.dest('dist'));
 });
 
-gulp.task('images', function() {
-	gulp.src('images')
-	.pipe(imagemin())
-	.pipe(gulp.dest('images'))
+gulp.task('uglify-debug', function (cb) {
+	pump([
+		gulp.src('src/js/*.js'),
+		concat( 'app.js' ), 
+		uglify(), 
+		gulp.dest('dist')
+		], cb);
 });
 
 

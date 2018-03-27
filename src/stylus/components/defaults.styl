@@ -1,0 +1,52 @@
+// helper~generic classes 
+
+.center-content 
+	width 100% 
+	margin auto 
+	max-width 128rem
+	position relative
+	z-index 2
+	
+.dib 
+	display inline-block
+	vertical-align top
+		
+.full 
+	@media $small-desktop-min
+		display block
+		width 100%
+		
+.half
+	@media $small-desktop-min
+		float left
+		width 47.5% 
+		
+	& + .half 
+		@media $small-desktop-min
+			margin-left 5%
+	
+.one-third
+	@media $small-desktop-min
+		float left 
+		width 31.666%
+		
+	& + .one-third 
+		@media $small-desktop-min
+			margin-left 2.5%
+			
+.intern 
+	@media $tablet-max
+		padding-top 5rem 
+		padding-bottom 4.5rem 
+		
+	@media $small-desktop-min
+		padding-bottom 2.7rem
+
+.cleared 
+	&:after
+		content ''
+		display block
+		clear both 
+		
+.transitioned-basic
+	transition all .2s ease-in-out
