@@ -1,7 +1,5 @@
 # personal-boilerplate
 
-----------
-
 Based on  [Gulp](http://gulpjs.com/) with [Stylus](http://stylus-lang.com/) and [postCSS](http://postcss.org/).
 Also uses [PHP](https://secure.php.net/) includes.
 
@@ -40,7 +38,6 @@ If you need help, contact me on [GitHub]('https://github.com/drunksheep')
 
 
 ## Changelog ##
-----------
 
 **1.2**
 
