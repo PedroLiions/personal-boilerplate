@@ -1,15 +1,33 @@
-// helper~generic classes 
+// helper ~ generic classes 
 
 .center-content 
 	width 100% 
 	margin auto 
-	max-width 128rem
-	position relative
+	max-width 120rem
 	z-index 2
+	
+	&:not(.not-relative)
+		position relative
+		
+	&:not(.nopadding)
+		@media $tablet-max
+			padding 0 1.5rem
 	
 .dib 
 	display inline-block
 	vertical-align top
+	
+.cleared 
+	&:after
+		content ''
+		display block
+		clear both 
+		
+.transitioned-basic
+	transition all .2s ease-in-out
+	
+
+// " premade constant widths "
 		
 .full 
 	@media $small-desktop-min
@@ -34,19 +52,28 @@
 		@media $small-desktop-min
 			margin-left 2.5%
 			
-.intern 
-	@media $tablet-max
-		padding-top 5rem 
-		padding-bottom 4.5rem 
-		
+.one-third-child
 	@media $small-desktop-min
-		padding-bottom 2.7rem
-
-.cleared 
-	&:after
-		content ''
+		float left 
+		width 31.666%
 		display block
-		clear both 
+			
+	& + .one-third-child:not(:nth-child(3n+4))
+		@media $small-desktop-min
+			margin-left 2.5%
+
+
+// big generic blocks
+	
+.has-sidebar 
+	@media $small-desktop-min
+		float left 
+		width 65.83%
 		
-.transitioned-basic
-	transition all .2s ease-in-out
+	&.left 
+		@media $small-desktop-min
+			margin-left 5%
+			
+	&.right 
+		@media $small-desktop-min
+			margin-right 5%

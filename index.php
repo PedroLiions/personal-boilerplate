@@ -1,4 +1,4 @@
-<?php include_once('header.php') ?>
+<?php include('includes/header.php'); ?>
 <main>
 </main>
-<?php include_once('footer.php') ?>
+<?php include('includes/footer.php'); ?>

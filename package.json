@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "André Facchini - https://github.com/drunksheep/",
+  "author": "André Facchini - Drunksheep - @dokkodojs",
   "license": "ISC",
   "homepage": "https://github.com/drunksheep/personal-boilerplate",
   "dependencies": {
