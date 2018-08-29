@@ -2,10 +2,6 @@
     "name": "personal-boilerplate",
     "version": "1.4.0",
     "description": "Basic boilerplate for Stylus and postCSS everyday work",
-    "main": "\u001b[C",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
     "author": "André Facchini - Drunksheep - @dokkodojs",
     "license": "ISC",
     "homepage": "https://github.com/drunksheep/personal-boilerplate",
