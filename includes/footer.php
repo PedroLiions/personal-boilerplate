@@ -1,6 +1,6 @@
 <footer>
 	
 </footer>
-<script src="dist/app.js"></script>
+<script src="<?= get_template_directory_uri() ?>/dist/app.js"></script>
 </body>
 </html> 

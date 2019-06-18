@@ -1,7 +1,5 @@
-//- generic helpers
-//-------------------------------------------
 
-var helpers = {
+export helpers = {
 	lockBody : function()  {
 		document.body.classList.add('no-scroll');
 	},
@@ -21,7 +19,7 @@ var helpers = {
 //- smooth jquery anchors (Jquery dependant)
 //-------------------------------------------
 
-function anchors() {
+export function anchors() {
 	$(".is-anchor").click(function(event) {     
 		event.preventDefault();
 		var target = $(this).data('to');

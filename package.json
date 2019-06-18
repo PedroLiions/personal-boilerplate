@@ -6,14 +6,18 @@
     "license": "ISC",
     "homepage": "https://github.com/drunksheep/personal-boilerplate",
     "dependencies": {
+        "@babel/core": "^7.4.5",
         "autoprefixer": "*",
+        "bootstrap-4-stylus": "^1.0.7",
         "css-mqpacker": "*",
         "cssnano": "*",
         "gulp": "^4.0.0",
+        "gulp-babel": "^8.0.0",
         "gulp-concat": "*",
         "gulp-postcss": "*",
         "gulp-sourcemaps": "*",
         "gulp-stylus": "*",
+        "gulp-tinypng-compress": "^1.2.5",
         "gulp-uglify": "*",
         "pump": "*"
     }

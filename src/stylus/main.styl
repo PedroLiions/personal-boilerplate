@@ -1,5 +1,7 @@
 @import 'helpers/variables'
-@import 'base/reset'
+
+@import '../../node_modules/bootstrap-4-stylus/bootstrap.styl'
+
 @import 'base/fallbacks'
 @import 'helpers/mixins'
 @import 'base/typography'
@@ -12,15 +14,5 @@
 @import 'layout/grids'
 @import 'layout/header'
 @import 'layout/sidebars'
+
 @import 'pages/index'
-
-
-// i tend to cite classes on several documents generally as follows: 
-// generic properties go on more generic denominators and specifics go usually into their own page hierarchy 
-
-// ie: (.has-icon) will be on defaults and contain all generic properties for reusability, i will then go to the specific 
-// component that intends to use the class and extend their properties based on hierarchy for that HTML context (generally this means spacing, colors, sizes and this sort of stuff)
-
-// documentation motherfucker, do you have it?
-
-// REMEMBER TO READ HIERARCHY.MD ON SRC FOLDER!
