@@ -2,12 +2,24 @@
 
 @import '../../node_modules/bootstrap-4-stylus/bootstrap.styl'
 
+@import 'base/reset'
 @import 'base/fallbacks'
-@import 'helpers/mixins'
 @import 'base/typography'
+
+@import 'helpers/mixins'
+@import 'helpers/sizes'
+@import 'helpers/background'
+@import 'helpers/separator'
+@import 'helpers/scales'
+
 @import 'components/buttons'
 @import 'components/navigation'
+@import 'components/contact'
 @import 'components/defaults'
+@import 'components/container'
+@import 'components/texts'
+@import 'components/slick'
+
 @import 'layout/footer'
 @import 'layout/overlay'
 @import 'layout/forms'
@@ -16,3 +28,8 @@
 @import 'layout/sidebars'
 
 @import 'pages/index'
+
+
+// fontawesome
+
+@import '../../node_modules/@fortawesome/fontawesome-free/css/all.css'

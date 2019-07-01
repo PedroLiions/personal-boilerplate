@@ -7,18 +7,34 @@
     "homepage": "https://github.com/drunksheep/personal-boilerplate",
     "dependencies": {
         "@babel/core": "^7.4.5",
-        "autoprefixer": "*",
+        "@babel/plugin-proposal-class-properties": "^7.4.4",
+        "@babel/preset-env": "^7.4.5",
+        "@types/jquery": "^3.3.30",
+        "animate.css": "^3.7.1",
+        "autoprefixer": "^9.6.0",
+        "bootstrap": "^4.3.1",
         "bootstrap-4-stylus": "^1.0.7",
         "css-mqpacker": "*",
-        "cssnano": "*",
-        "gulp": "^4.0.0",
+        "cssnano": "^4.1.10",
+        "glob": "^7.1.4",
+        "gulp": "^4.0.2",
         "gulp-babel": "^8.0.0",
         "gulp-concat": "*",
+        "gulp-eslint": "*",
         "gulp-postcss": "*",
-        "gulp-sourcemaps": "*",
+        "gulp-sourcemaps": "^2.6.5",
         "gulp-stylus": "*",
         "gulp-tinypng-compress": "^1.2.5",
-        "gulp-uglify": "*",
-        "pump": "*"
+        "gulp-uglify": "^3.0.2",
+        "jquery": "^3.4.1",
+        "jquery-mask-plugin": "^1.14.15",
+        "pump": "*",
+        "slick-carousel": "^1.8.1",
+        "slickjs": "^1.0.0",
+        "systemjs": "^3.1.6",
+        "typescript": "^3.5.2"
+    },
+    "devDependencies": {
+        "@fortawesome/fontawesome-free": "^5.9.0"
     }
 }

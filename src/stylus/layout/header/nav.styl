@@ -1,0 +1,29 @@
+// Header
+.wrapper-header {
+  padding 20px 0
+  background $gray-800
+
+  > div {
+    display flex
+    justify-content space-between
+    align-items center
+    flex-direction row
+  }
+
+  // Navbar only desktop
+  @media $min-xl {
+    @import 'nav-desktop';
+  }
+  // min-xl only desktop
+
+
+  $height-mobile = 82px;
+
+  @media $max-xl {
+    @import 'nav-mobile';
+    // navigation main
+  }
+
+}
+
+// wrapper-header

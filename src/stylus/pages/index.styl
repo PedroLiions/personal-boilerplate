@@ -1,0 +1,213 @@
+@import '../components/hero';
+
+centered() {
+  display flex
+  align-items center
+  justify-content center
+}
+
+centeredH() {
+  display flex
+  justify-content center
+  flex-direction column
+  align-items center
+}
+
+cicle() {
+  border-radius 200px
+}
+
+
+.wrapper-why-kaprice {
+
+  // text por que
+
+  .why {
+    @media $min-lg {
+      margin-top 33px
+    }
+  }
+
+  .why-kaprice-wrapper {
+    outline none
+    centeredH()
+
+    .icon-wrapper {
+      centered()
+      cicle()
+      scale-desk()
+      //extends .scale-desk
+      margin-bottom 25px
+      width 200px
+      height 200px
+      background-color #cc3812
+
+      .icon {
+        centered()
+        cicle()
+        width 160px
+        height 160px
+        background $warning
+        box-shadow: 5px 10px 0 0 rgba(0, 0, 0, .1)
+        padding 15px
+
+        img {
+        }
+      }
+
+    }
+
+    .title {
+      width 130px
+      font-weight 700
+      margin-bottom 20px;
+    }
+
+    .text {
+      width 200px
+    }
+
+    .btn-more {
+      color $warning
+      font-weight 700
+      border-bottom 2px solid $warning
+
+      &:hover {
+        border-bottom 2px solid transparent
+        text-decoration none
+      }
+    }
+  }
+
+}
+
+.security-cars-wrapper {
+  background black
+  color white
+  background-image url('../imgs/sections/kaprice-seguros-para-carros.jpg');
+  background-scale(120%, 135%, inherit)
+  background-repeat no-repeat
+  padding-top-scale(300px, 400px, 470px)
+  padding-bottom 50px
+
+  .title-header {
+    h1 {
+      scale-desk-grid(.7, .85, 1)
+      //transform-origin left
+
+      span {
+        @media $min-xl {
+          white-space nowrap
+        }
+      }
+    }
+  }
+}
+
+// Seguro para carros
+.security-container-wrapper {
+  width 100%
+  margin-top 80px
+
+  .security-wrapper {
+    outline none
+
+    .icon {
+      scale-desk()
+      height: 160px
+      margin-bottom 35px;
+      display flex;
+      align-items: center
+      justify-content center
+
+    }
+
+    .title {
+      font-weight bold
+      height 85px
+      @media $min-xl {
+        font-size 18px
+      }
+      @media $min-xl2 {
+        font-size 23px
+      }
+    }
+
+    .text {
+      margin-bottom 60px
+    }
+  }
+}
+
+.secutiry-for-you-container {
+  background-image url('../imgs/sections/background-seguro-para-voce.png');
+  //background-scale(120%, 135%, cover)
+  background-repeat no-repeat
+  padding-top 470px
+  background-position top center
+  margin-top -200px
+  padding-bottom 280px
+
+  .title-header {
+    scale-desk-grid(.7, .9, 1);
+    transform-origin left
+  }
+
+  .security-for-you-wrapper {
+    scale-desk-grid(.8, .95, 1)
+
+    .icon {
+      height 130px
+    }
+
+    .title {
+      padding-top 50px
+      padding-bottom 50px
+      height 78px
+      centeredAlignTop()
+    }
+
+    .text {
+      text-align center
+      padding-top-scale(20px, 30px, inherit)
+    }
+
+    .link {
+      text-align center
+      font-weight bold
+      color $danger
+      text-decoration underline
+    }
+  }
+}
+
+.secutiry-for-company-container {
+  margin-top -180px
+  padding-top 700px
+  padding-bottom 300px
+  background-image url('../imgs/sections/background-seguro-para-empresas.png');
+}
+
+.security-for-company-wrapper-group-slick {
+  .security-for-company {
+    margin-bottom 90px
+
+    .title {
+      margin-top 25px
+      margin-bottom 25px
+      font-size 18px
+    }
+    .text {
+      font-size 14px
+      text-align center
+    }
+    .link {
+      text-decoration underline
+    }
+  }
+}
+
+// disabled outline slick
+.slick-slide {
+  outline: none !important
+}

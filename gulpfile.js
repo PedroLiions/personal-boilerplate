@@ -38,11 +38,13 @@ const stylFiles = [
     'src/stylus/*.styl'
 ];
 
-const cssDestPath = 'dist';
+const cssDestPath = 'src/css';
 
 gulp.task('stylusdev', function () {
     return gulp.src(stylFiles)
-        .pipe(stylus())
+        .pipe(stylus({
+            'include css': true
+        }))
         .pipe(gulp.dest(cssDestPath))
 });
 
@@ -59,7 +61,9 @@ gulp.task('stylusprod', function () {
     ];
     return gulp.src(stylFiles)
     // Style processor
-        .pipe(stylus())
+        .pipe(stylus({
+            'include css': true
+        }))
         // Transpile webkit, -moz-, etc
         .pipe(postcss(processors))
         // Minificar
@@ -69,8 +73,9 @@ gulp.task('stylusprod', function () {
 });
 
 gulp.task('css', function () {
-    return gulp.src('dist/*.css')
-        .pipe(sourcemaps.write('.'))
+    return gulp.src(['src/css/main.css', env.node + 'animate.css/animate.css'])
+        .pipe(concat('main.css'))
+        .pipe(gulp.dest('dist/css/'))
 });
 
 gulp.task('stylus', gulp.series(env.task.css, 'css'));
@@ -91,17 +96,16 @@ const babelOpts = {
 
 const jsFiles = [
     env.node + 'jquery/dist/jquery.slim.js',
-    'src/js/*.js',
+    'src/js/**/*.js',
     env.node + 'slick-carousel/slick/slick.js',
     env.node + 'jquery-mask-plugin/dist/jquery.mask.js'
 ];
 
-const   jsAppFileName   = 'app.js',
-    jsDestPath      = 'dist/';
+const   jsAppFileName   = 'index.js',
+        jsDestPath      = 'dist/js/';
 
 gulp.task('jsprod', function (done) {
     pump([
-
         gulp.src(jsFiles)
             .pipe(concat(jsAppFileName))
             .pipe(babel(babelOpts)),
@@ -137,6 +141,17 @@ gulp.task('tinypng', function () {
 /*
 * End compress image
 * */
+
+gulp.task('copy_node', function(done) {
+   return pump([
+        gulp.src([
+            'node_modules/jquery/dist/jquery.min.js',
+            'node_modules/systemjs/dist/system.min.js',
+            'node_modules/slick-carousel/slick/slick.min.js',
+        ]),
+        gulp.dest(jsDestPath + '/libs')
+    ], done);
+});
 
 
 gulp.task('watch', function (done) {

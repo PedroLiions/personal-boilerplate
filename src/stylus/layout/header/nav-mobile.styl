@@ -1,0 +1,77 @@
+button.nav-toggle {
+  display flex
+  justify-content center
+  align-items center
+  padding-top 5px
+}
+
+// button nav-open
+.navigation-main {
+  position absolute
+  left -100vw
+  top 0
+  transition ease .2s
+
+  &.opened {
+    left 0
+  }
+
+  ul.nav-menu {
+    position fixed
+    top $height-mobile
+    height "calc(100vh - %s)" % $height-mobile
+    width 100vw
+    background black
+
+    display flex
+    flex-direction column
+    padding 20px
+
+    > li {
+      padding 5px 0
+
+      &:not(:last-child) {
+        border-bottom 1px solid rgba(255, 255, 255, .05)
+      }
+
+      a {
+        width 100%
+        text-transform uppercase
+        color white
+        text-decoration none
+      }
+
+      // a
+
+      &.menu-item-has-children {
+        a {
+          display flex
+          justify-content space-between
+
+          &:after {
+            font-family 'Font Awesome 5 Free'
+            font-size 12px
+            font-weight 700
+            margin-left 4px
+            color $red
+            content "\f054"
+          }
+
+          // after of a
+        }
+
+        // a
+      }
+
+      // menu item has child
+    }
+
+    // > li
+
+    .sub-menu {
+      display none
+    }
+  }
+
+  // ul nav-menu
+}

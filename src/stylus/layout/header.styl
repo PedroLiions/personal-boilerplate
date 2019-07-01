@@ -1,0 +1,45 @@
+.wrapper-header-top {
+  background $gray-700
+  color $text-in-dark-primary;
+  box-shadow 10px 4px 0 0 rgba(0,0,0,.1)
+
+  padding 8px 0;
+
+  address {
+    margin-bottom 0;
+  }
+
+  .icon-wrapper {
+    display flex
+    align-items center
+    justify-content space-between
+
+    .icon {
+      font-size $font-icon-base-size;
+      margin-right 10px
+    }
+
+    .text {
+      font-size 13px
+    }
+
+    &:not(:first-child) {
+      margin-left 15px
+    }
+  } // icon-wrapper
+
+  .wrapper-social-icon {
+    margin-left 15px
+
+    .icon {
+      font-size $font-icon-base-size
+      color $text-in-dark-primary
+
+      &:hover {
+        color $red
+      }
+    }
+  } // wrap-social-icon
+} // wrapper header top
+
+@import "header/nav.styl";

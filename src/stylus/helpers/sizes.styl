@@ -1,0 +1,43 @@
+$breakpoints = md lg xl;
+
+for i in 0..20 {
+
+  i = i * 5;
+
+  .pt-{i}, .py-{i} {
+    padding-top '%s%s' % (i px) !important
+  }
+
+  .pb-{i}, .py-{i} {
+    padding-bottom '%s%s' % (i px) !important
+  }
+
+  .mt-{i}, .my-{i} {
+    margin-top '%s%s' % (i px) !important
+  }
+
+  .mb-{i}, .my-{i} {
+    margin-bottom '%s%s' % (i px) !important
+  }
+
+  @media $min-xl {
+
+    .pt-xl-{i}, .py-xl-{i} {
+      padding-top '%s%s' % (i px) !important
+    }
+
+    .pb-xl-{i}, .py-xl-{i} {
+      padding-bottom '%s%s' % (i px) !important
+    }
+
+    .mt-xl-{i}, .my-xl-{i} {
+      margin-top '%s%s' % (i px) !important
+    }
+
+    .mb-xl-{i}, .my-xl-{i} {
+      margin-bottom '%s%s' % (i px) !important
+    }
+
+  }
+
+}

@@ -9,7 +9,18 @@ webfont(family, file, hack-chrome-windows = false, weight = 'normal')
     src url(font-url(file + '.woff')) format('woff')
     font-weight weight
     font-style normal
-    
+
 // How to use:
 // webfont('font-name', 'file-name', chrome-hack-boolean, 'weight')
-      
+
+centeredHY() {
+  display flex;
+  justify-content center;
+  align-items center;
+}
+
+centeredAlignTop() {
+  display flex;
+  justify-content center;
+  align-items flex-start;
+}

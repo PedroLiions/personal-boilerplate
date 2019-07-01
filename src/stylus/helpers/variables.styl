@@ -5,19 +5,79 @@ $xg = 7rem
 $m = 2.4rem 
 $ms = 2rem
 $s = 1.6rem 
-$xs = 1.4rem 
+$xs = 1.4rem
+
+
+// Container
+$container-xl = 80%;
 
 //COLORS 
 //------------------------------------------------
 
+$bodyBackground = white;
+$bodyColor = black;
 
+// blacks
+$gray-700 = rgb(#333132);
+$gray-800 = rgb(#1a1a19);
+$text-in-dark-primary = #adadad;
+$red = #c01714;
+$danger = $red;
+$gray-500 = #959691;
+$warning = #f8bc07;
 
+$border-radius = 19px;
 
+// bootstrap variables color
+$primary = $red;
 
+// Fontes
+$font-family-base = 'CeraPro-Regular';
+$font-icon-base-size = 18px;
 
 //BREAKPOINTS 
 //-------------------------------------------------
 // sc === screen ///\\\ xxs / xs / s / sc / xl / ===  xxtra small /  xtra small / small / regularscreen / xtra large    
+
+
+//grid breakpoints
+$grid-sm ?= 576px
+$grid-md ?= 920px
+$grid-lg ?= 1200px
+$grid-xl ?= 1400px
+$grid-xll ?= 1400px
+$grid-xlll ?= 1600px
+
+$min-sm = "(min-width: 576px)"
+$min-md = "(min-width: 768px)"
+$min-lg = "(min-width: 992px)"
+$min-xl = "(min-width: 1199px)"
+$min-x2 = "(min-width: 1399px)"
+$min-x3 = "(min-width: 1599px)"
+
+$max-sm = "(max-width: 576px)"
+$max-md = "(max-width: 768px)"
+$max-lg = "(max-width: 992px)"
+$max-xl = "(max-width: 1200px)"
+$max-x2 = "(max-width: 1400px)"
+$max-x3 = "(max-width: 1600px)"
+
+//$grid-breakpoints = {
+//    xs: 0,
+//    sm: 576px,
+//    md: 768px,
+//    lg: 992px,
+//    xl: 1200px,
+//    xxl: 1900px
+//};
+//
+//$container-max-widths = {
+//    sm: 540px,
+//    md: 720px,
+//    lg: 960px,
+//    xl: 1140px,
+//    xxl: 1610px
+//};
 
 xl-sc = 1400px 
 sc = xl-sc - 1  
@@ -43,7 +103,8 @@ $smallest-desktop-minmax = 'screen and (min-width 998px) and (max-width 1279px)'
 $desktop-minmax = 'screen and (min-width 1279px) and (max-width 1400px)'
 
 
-
-
-
-
+// bootstrap
+$col-sm-include = false;
+$container-sm-include = false;
+$flex-sm-include = false;
+$text-directions-sm-include = false;

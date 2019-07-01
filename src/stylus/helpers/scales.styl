@@ -1,0 +1,47 @@
+scale-desk() {
+  @media $min-xl {
+    transform scale(.7);
+  }
+  @media $min-x2 {
+    transform scale(.85);
+  }
+  @media $min-x3 {
+    transform scale(1);
+  }
+}
+
+scale-desk-grid($xl, $x2, $x3) {
+  @media $min-xl {
+    transform scale($xl);
+  }
+  @media $min-x2 {
+    transform scale($x2);
+  }
+  @media $min-x3 {
+    transform scale($x3);
+  }
+}
+
+background-scale($xl, $x2, $x3) {
+  @media $min-xl {
+    background-size: $xl;
+  }
+  @media $min-x2 {
+    background-size: $x2;
+  }
+  @media $min-x3 {
+    background-size: $x3;
+  }
+}
+
+padding-top-scale($xl, $x2, $x3) {
+  @media $min-xl {
+    padding-top: ($xl);
+  }
+  @media $min-x2 {
+    padding-top: ($x2);
+  }
+  @media $min-x3 {
+    padding-top: ($x3);
+  }
+}

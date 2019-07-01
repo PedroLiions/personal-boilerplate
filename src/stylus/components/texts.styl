@@ -1,0 +1,13 @@
+$font-sizes =  18 50 80 116 172 220;
+
+for i in $font-sizes
+  .font-size-{i}
+    font-size '%s%s' % (i px)
+    @media $max-lg
+      font-size '%s%s' % ((i * .5) px)
+
+
+.letter-spacing-5
+  letter-spacing: -5px;
+
+
