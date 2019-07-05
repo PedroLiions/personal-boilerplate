@@ -3,12 +3,21 @@
 
   &:after {
     content " "
-    width 100px
-    height 5px
-    background white
     position absolute
+    background white
+    width 40px
+    height 2px
     bottom -10px
-    left 0
-    box-shadow 5px 5px 0 0 rgba(0,0,0,.2)
+    left 50%
+    transform translateX(-50%)
+  }
+  @media $min-xl {
+    &:after {
+      width 100px
+      height 5px
+      left 0
+      box-shadow 5px 5px 0 0 rgba(0, 0, 0, .2)
+      transform initial
+    }
   }
 }

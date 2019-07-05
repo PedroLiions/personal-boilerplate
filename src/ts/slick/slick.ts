@@ -1,8 +1,14 @@
+import {environment} from "../environment.js";
+
 declare var $: any;
 
 export class Slick {
 
+
     breakpoint = 1199;
+    breakpointXL = 1399;
+
+    bpts = environment.breakpoints;
 
     defaultOptions = {
         dots: true,
@@ -28,6 +34,7 @@ export class Slick {
         this.slickSecurityForCars();
         this.slickSecurityForYou();
         this.slickForCompany();
+        this.slickInserurs();
     }
 
     /*
@@ -47,7 +54,7 @@ export class Slick {
     slickSecurityForCars(): void {
         const securityForCars = {
             ...this.defaultOptions,
-            rows: 2,
+            rows: 1,
             responsive: [
                 {
                     breakpoint: this.breakpoint,
@@ -56,7 +63,7 @@ export class Slick {
                         rows: 2,
                         dots: false
                     }
-                }
+                },
             ]
         };
 
@@ -102,5 +109,47 @@ export class Slick {
         };
 
         $('.security-for-company-wrapper-group-slick').slick(securityForYouOptions)
+    }
+
+    /* Seguradoras */
+    slickInserurs() {
+        const slickInserurs = {
+            ...this.defaultOptions,
+            rows: 1,
+            adaptiveHeight: true,
+            centerPadding: '0',
+            prevArrow: $('.prev'),
+            nextArrow: $('.next'),
+            dots: false,
+            responsive: [
+                {
+                    breakpoint: this.bpts.lg,
+                    settings: {
+                        slidesToShow: 4,
+                        rows: 1,
+                        dots: false,
+                        adaptiveHeight: true,
+                        arrows: true,
+                        infinite: true,
+                    },
+                },
+                {
+                    breakpoint: this.bpts.xl,
+                    settings: {
+                        slidesToShow: 5,
+                        dots: false,
+                    }
+                },
+                {
+                    breakpoint: this.bpts.x2,
+                    settings: {
+                        slidesToShow: 6,
+                        dots: false,
+                    }
+                },
+            ]
+        };
+
+        $('.inserurs-wrapper-group-slick').slick(slickInserurs);
     }
 }

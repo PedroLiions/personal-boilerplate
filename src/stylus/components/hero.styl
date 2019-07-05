@@ -1,51 +1,79 @@
 .hero-wrapper {
 
-  background-image url('../imgs/hero/kaprice-seguros-criancas-brincando.jpg')
+  background-image url('../imgs/hero/mobile-background.jpg')
   background-size cover
-  background-position center
+  background-position top center
+  background-repeat no-repeat
+  height 365px
 
-  min-height 100vh
+  @media $min-xl {
+    background-image url('../imgs/hero/kaprice-seguros-criancas-brincando.jpg')
+    background-size cover
+    min-height 100vh
+    padding-top 150px
+    padding-bottom 150px
+  }
 
-  padding-top 150px
-  padding-bottom 150px
+    @media $max-xl {
+      .btn-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+      }
+    }
 
   .hero-title {
     line-height 0.92
     color white
+    @media $max-xl {
+      transform scale(.6);
+      transform-origin left
+      span {
+        &:nth-of-type(1), &:nth-of-type(3) {
+          color black;
+        }
+        &:nth-of-type(2) {
+          font-weight bold
+          color $red;
+          margin-top 5px;
+          margin-bottom 5px;
+        }
+      }
+    }
 
     .hero-bigger {
       position: relative;
 
-      &:after {
-        content attr(data-text)
-        position absolute
-        top 50%
-        left 50%
-        transform translate(-50%, -50%)
-        font-size 297px
-        -webkit-text-fill-color transparent
-        -webkit-text-stroke-width 1px
-        -webkit-text-stroke-color rgba(255,255,255,.4)
-      } // hero-biggger after
-    } // hero-biggger
-  } // hero-title
+      @media $min-xl {
+        &:after {
+          content attr(data-text)
+          position absolute
+          top 50%
+          left 50%
+          transform translate(-50%, -50%)
+          font-size 250px
+          -webkit-text-fill-color transparent
+          -webkit-text-stroke-width 2px
+          -webkit-text-stroke-color rgba(255, 255, 255, .4)
+          color: transparent;
+          line-height: 1
+        }
+      } // hero bigger after
 
-  //&:after {
-  //  content " "
-  //  width 100%
-  //  height 100%
-  //  position absolute
-  //  background-image url('../imgs/hero/kaprice-seguros-background-carros.png')
-  //  background-repeat no-repeat
-  //} // hero wrapper after
+      // hero-biggger
+    }
 
-} // hero-wrapper
+    // hero-title
+  }
 
+}
 // hero divisor wrapper faker
 
 .fake-divisor-wrapper {
   background-image url('../imgs/hero/kaprice-seguros-background-carros.png');
   width 100%
+  background-size cover
+
   height 637px
   margin-top -200px
 }

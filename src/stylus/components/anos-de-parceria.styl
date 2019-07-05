@@ -1,0 +1,84 @@
+// 20 anos de parceria
+
+.anos-de-parceria-container {
+  background-image url("../imgs/sections/background-20-anos-parceria-mobil.png");
+  background-size: 100vw
+  background-repeat no-repeat !important
+  margin-bottom 120px
+  padding-top 150px
+  text-align center
+
+  @media $min-xl {
+    text-align inherit
+    padding-top 470px
+    background url("../imgs/sections/background-20-anos-parceria.png");
+  }
+
+  .title-header  {
+    span {
+      font-size 1.2em
+    }
+
+    .subtitle {
+      @media $max-xl {
+        font-size 18px;
+        letter-spacing 0
+        margin-top 20px;
+        margin-bottom 20px;
+      }
+    }
+  }
+}
+
+.inserurs-wrapper-group-slick {
+  margin-top 60px;
+  .icon {
+    height 90px;
+    margin-bottom 0;
+    @media $min-xl {
+      margin-bottom 50px;
+    }
+    centeredHY()
+    img {
+      transition linear .2s
+      filter grayscale(100%)
+      opacity .6
+      &:hover {
+        filter grayscale(0)
+        opacity 1
+      }
+    }
+  }
+
+  .title {
+    color $gray-600
+  }
+}
+
+.arrows {
+  padding-top 30px
+  @media $min-xl {
+    padding-top 60px
+  }
+  centeredHY()
+
+  button {
+    centeredHY()
+    width 40px
+    height 40px
+    border 2px solid $red
+    border-radius 200px
+    transition linear .2s
+    cursor pointer
+    &.prev {
+      margin-right 9px;
+    }
+    &.next {
+      margin-left 9px;
+    }
+    &:hover {
+      background $red;
+      color white
+    }
+  }
+}

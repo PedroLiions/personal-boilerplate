@@ -8,27 +8,27 @@ class Data
         return [
             [
                 'title' => 'AGILIDADE NO ATENDIMENTO',
-                'text'  => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-                'icon'  => '/dist/imgs/icones_home/stopwatch.svg',
-                'link'  =>  ''
+                'text' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+                'icon' => '/dist/imgs/icones_home/stopwatch.svg',
+                'link' => ''
             ],
             [
                 'title' => 'ATENDIMENTO HUMANO',
-                'text'  => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-                'icon'  => '/dist/imgs/icones_home/atendimento-humano-icon.svg',
-                'link'  =>  ''
+                'text' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+                'icon' => '/dist/imgs/icones_home/atendimento-humano-icon.svg',
+                'link' => ''
             ],
             [
                 'title' => 'OPÇÕES',
-                'text'  => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-                'icon'  => '/dist/imgs/icones_home/opcoes-icon.svg',
-                'link'  =>  ''
+                'text' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+                'icon' => '/dist/imgs/icones_home/opcoes-icon.svg',
+                'link' => ''
             ],
             [
                 'title' => 'CUSTOMIZE',
-                'text'  => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-                'icon'  => '/dist/imgs/icones_home/help.svg',
-                'link'  =>  ''
+                'text' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+                'icon' => '/dist/imgs/icones_home/help.svg',
+                'link' => ''
             ],
         ];
     }
@@ -38,63 +38,63 @@ class Data
         return [
             [
                 'title' => 'CONSÓRCIO DE VEÍCULOS, MOTOS OU VEÍCULOS PESADOS',
-                'text'  => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-                'link'  => '',
-                'icon'  => '/dist/imgs/icones_home/carro-e-caminhao-kaprice.png'
+                'text' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+                'link' => '',
+                'icon' => '/dist/imgs/icones_home/carro-e-caminhao-kaprice.png'
             ],
             [
                 'title' => 'RASTREADOR COM SEGURO',
-                'text'  => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-                'link'  => '',
-                'icon'  => '/dist/imgs/icones_home/seguro-rastreador.png'
+                'text' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+                'link' => '',
+                'icon' => '/dist/imgs/icones_home/seguro-rastreador.png'
             ],
             [
                 'title' => 'SEGURO AUTO',
-                'text'  => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-                'link'  => '',
-                'icon'  => '/dist/imgs/icones_home/seguro-auto-kaprice-seguros.png'
+                'text' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+                'link' => '',
+                'icon' => '/dist/imgs/icones_home/seguro-auto-kaprice-seguros.png'
             ],
             [
                 'title' => 'SEGURO AUTO POPULAR',
-                'text'  => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-                'link'  => '',
-                'icon'  => '/dist/imgs/icones_home/seguro-auto-popular.png'
+                'text' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+                'link' => '',
+                'icon' => '/dist/imgs/icones_home/seguro-auto-popular.png'
             ],
             [
                 'title' => 'SEGURO BLINDADO',
-                'text'  => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-                'link'  => '',
-                'icon'  => '/dist/imgs/icones_home/seguro-blindados.png'
+                'text' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+                'link' => '',
+                'icon' => '/dist/imgs/icones_home/seguro-blindados.png'
             ],
             [
                 'title' => 'SEGURO DE CAMINHÃO',
-                'text'  => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-                'link'  => '',
-                'icon'  => '/dist/imgs/icones_home/seguro-caminhao.png'
+                'text' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+                'link' => '',
+                'icon' => '/dist/imgs/icones_home/seguro-caminhao.png'
             ],
             [
                 'title' => 'SEGURO DE FROTA',
-                'text'  => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-                'link'  => '',
-                'icon'  => '/dist/imgs/icones_home/seguro-de-frota.png'
+                'text' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+                'link' => '',
+                'icon' => '/dist/imgs/icones_home/seguro-de-frota.png'
             ],
             [
                 'title' => 'SEGURO DE MOTO',
-                'text'  => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-                'link'  => '',
-                'icon'  => '/dist/imgs/icones_home/seguro-moto.png'
+                'text' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+                'link' => '',
+                'icon' => '/dist/imgs/icones_home/seguro-moto.png'
             ],
             [
                 'title' => 'SEGURO DE TÁXI',
-                'text'  => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-                'link'  => '',
-                'icon'  => '/dist/imgs/icones_home/seguro-taxi.png'
+                'text' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+                'link' => '',
+                'icon' => '/dist/imgs/icones_home/seguro-taxi.png'
             ],
             [
                 'title' => 'SEGURO DE UBER',
-                'text'  => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-                'link'  => '',
-                'icon'  => '/dist/imgs/icones_home/seguro-uber.png'
+                'text' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+                'link' => '',
+                'icon' => '/dist/imgs/icones_home/seguro-uber.png'
             ],
         ];
     }
@@ -104,33 +104,33 @@ class Data
         return [
             [
                 'title' => 'PREVIDÊNCIA INDIVIDUAL<br> E INFANTIL',
-                'icon'  => '/dist/imgs/icones_home/seguros-para-voce/previdencial-infantil.png',
-                'text'  => 'lorem ipsum dolor sit ametino adipisicing elit vero. Donec ultri sollicitudin lacus',
-                'link'  => ''
+                'icon' => '/dist/imgs/icones_home/seguros-para-voce/previdencial-infantil.png',
+                'text' => 'lorem ipsum dolor sit ametino adipisicing elit vero. Donec ultri sollicitudin lacus',
+                'link' => ''
             ],
             [
                 'title' => 'RESPONSABILIDADE<br>CIVIL',
-                'icon'  => '/dist/imgs/icones_home/seguros-para-voce/responsabilidade-civil.png',
-                'text'  => 'lorem ipsum dolor sit ametino adipisicing elit vero. Donec ultri sollicitudin lacus',
-                'link'  => ''
+                'icon' => '/dist/imgs/icones_home/seguros-para-voce/responsabilidade-civil.png',
+                'text' => 'lorem ipsum dolor sit ametino adipisicing elit vero. Donec ultri sollicitudin lacus',
+                'link' => ''
             ],
             [
                 'title' => 'SEGURO DE EQUIPAMENTOS PORTÁTEIS',
-                'icon'  => '/dist/imgs/icones_home/seguros-para-voce/equipamentos-portateis.png',
-                'text'  => 'lorem ipsum dolor sit ametino adipisicing elit vero. Donec ultri sollicitudin lacus',
-                'link'  => ''
+                'icon' => '/dist/imgs/icones_home/seguros-para-voce/equipamentos-portateis.png',
+                'text' => 'lorem ipsum dolor sit ametino adipisicing elit vero. Donec ultri sollicitudin lacus',
+                'link' => ''
             ],
             [
                 'title' => 'SEGURO DE<br>VIDA',
-                'icon'  => '/dist/imgs/icones_home/seguros-para-voce/seguro-de-vida.png',
-                'text'  => 'lorem ipsum dolor sit ametino adipisicing elit vero. Donec ultri sollicitudin lacus',
-                'link'  => ''
+                'icon' => '/dist/imgs/icones_home/seguros-para-voce/seguro-de-vida.png',
+                'text' => 'lorem ipsum dolor sit ametino adipisicing elit vero. Donec ultri sollicitudin lacus',
+                'link' => ''
             ],
             [
                 'title' => 'SEGURO<br>VIAGEM',
-                'icon'  => '/dist/imgs/icones_home/seguros-para-voce/seguro-viagem.png',
-                'text'  => 'lorem ipsum dolor sit ametino adipisicing elit vero. Donec ultri sollicitudin lacus',
-                'link'  => ''
+                'icon' => '/dist/imgs/icones_home/seguros-para-voce/seguro-viagem.png',
+                'text' => 'lorem ipsum dolor sit ametino adipisicing elit vero. Donec ultri sollicitudin lacus',
+                'link' => ''
             ],
         ];
     }
@@ -140,41 +140,154 @@ class Data
         return [
             [
                 'title' => 'RESPONSABILIDADE<br>CIVIL',
-                'icon'  => '/dist/imgs/icones_home/seguro-empresa/responsabilidade-civl.png',
-                'link'  => '',
-                'text'  => 'lorem ipsum dolor sit ametino adpsiciling elit veio Dinotec Ultri sollucidir lacus',
+                'icon' => '/dist/imgs/icones_home/seguro-empresa/responsabilidade-civl.png',
+                'link' => '',
+                'text' => 'lorem ipsum dolor sit ametino adpsiciling elit veio Dinotec Ultri sollucidir lacus',
             ],
             [
                 'title' => 'SEGURO DE<br>OBRAS CIVIS',
-                'icon'  => '/dist/imgs/icones_home/seguro-empresa/seguro-obras-oivis.png',
-                'link'  => '',
-                'text'  => 'lorem ipsum dolor sit ametino adpsiciling elit veio Dinotec Ultri sollucidir lacus',
+                'icon' => '/dist/imgs/icones_home/seguro-empresa/seguro-obras-oivis.png',
+                'link' => '',
+                'text' => 'lorem ipsum dolor sit ametino adpsiciling elit veio Dinotec Ultri sollucidir lacus',
             ],
             [
                 'title' => 'SEGURO DE VIDA<br>EMPRESARIAL',
-                'icon'  => '/dist/imgs/icones_home/seguro-empresa/seguro-de-vida-empresarial.png',
-                'link'  => '',
-                'text'  => 'lorem ipsum dolor sit ametino adpsiciling elit veio Dinotec Ultri sollucidir lacus',
+                'icon' => '/dist/imgs/icones_home/seguro-empresa/seguro-de-vida-empresarial.png',
+                'link' => '',
+                'text' => 'lorem ipsum dolor sit ametino adpsiciling elit veio Dinotec Ultri sollucidir lacus',
             ],
             [
                 'title' => 'SEGURO DE<br>GARANTIA',
-                'icon'  => '/dist/imgs/icones_home/seguro-empresa/seguro-de-garantia.png',
-                'link'  => '',
-                'text'  => 'lorem ipsum dolor sit ametino adpsiciling elit veio Dinotec Ultri sollucidir lacus',
+                'icon' => '/dist/imgs/icones_home/seguro-empresa/seguro-de-garantia.png',
+                'link' => '',
+                'text' => 'lorem ipsum dolor sit ametino adpsiciling elit veio Dinotec Ultri sollucidir lacus',
             ],
             [
                 'title' => 'PLANOS DE SAÚDE<br>E ODONTOLÓGICO',
-                'icon'  => '/dist/imgs/icones_home/seguro-empresa/plano-saude-e-odontologico.png',
-                'link'  => '',
-                'text'  => 'lorem ipsum dolor sit ametino adpsiciling elit veio Dinotec Ultri sollucidir lacus',
+                'icon' => '/dist/imgs/icones_home/seguro-empresa/plano-saude-e-odontologico.png',
+                'link' => '',
+                'text' => 'lorem ipsum dolor sit ametino adpsiciling elit veio Dinotec Ultri sollucidir lacus',
             ],
             [
                 'title' => 'SEGURO PARA<br>SEU NEGÓCIO',
-                'icon'  => '/dist/imgs/icones_home/seguro-empresa/seguro-para-seu-negocio.png',
-                'link'  => '',
-                'text'  => 'lorem ipsum dolor sit ametino adpsiciling elit veio Dinotec Ultri sollucidir lacus',
+                'icon' => '/dist/imgs/icones_home/seguro-empresa/seguro-para-seu-negocio.png',
+                'link' => '',
+                'text' => 'lorem ipsum dolor sit ametino adpsiciling elit veio Dinotec Ultri sollucidir lacus',
             ],
         ];
     }
 
+    public static function insurers(): array
+    {
+        return [
+            [
+                'title' => 'HDI',
+                'logo' => '/dist/imgs/seguradoras/HDI.png',
+            ],
+            [
+                'title' => 'Allianz Seguros',
+                'logo' => '/dist/imgs/seguradoras/allianz-seguros.png',
+            ],
+            [
+                'title' => 'Azul Seguros',
+                'logo' => '/dist/imgs/seguradoras/azul.png',
+            ],
+            [
+                'title' => 'Aliro',
+                'logo' => '/dist/imgs/seguradoras/aliro.png',
+            ],
+            [
+                'title' => 'Itaú Seguros',
+                'logo' => '/dist/imgs/seguradoras/itau.png',
+            ],
+            [
+                'title' => 'Liberty Seguros',
+                'logo' => '/dist/imgs/seguradoras/liberty-seguros.png',
+            ],
+            [
+                'title' => 'Bradesco Seguros',
+                'logo' => '/dist/imgs/seguradoras/bradesco-seguros.png',
+            ],
+            [
+                'title' => 'Mapfre Seguros',
+                'logo' => '/dist/imgs/seguradoras/mapfre.png',
+            ],
+            [
+                'title' => 'Porto Seguro',
+                'logo' => '/dist/imgs/seguradoras/porto-seguro.png',
+            ],
+            [
+                'title' => 'Suhai Seguros',
+                'logo' => '/dist/imgs/seguradoras/suhai.png',
+            ],
+            [
+                'title' => 'SulAmerica',
+                'logo' => '/dist/imgs/seguradoras/sulamerica.png',
+            ],
+            [
+                'title' => 'Tokio Marine',
+                'logo' => '/dist/imgs/seguradoras/tokio-marine.png',
+            ],
+        ];
+    }
+
+    public static function rate(): array
+    {
+        $rate = [
+            '5' => ['Excelente', 1390],
+            '4' => ['Bom', 60],
+            '3' => ['Regular', 25],
+            '2' => ['Ruim', 0],
+            '1' => ['Muito Ruim', 0]
+        ];
+
+        $total = 0;
+        foreach ($rate as $r) $total += $r[1];
+
+
+        foreach ($rate as $index => $r) {
+            $rate[$index][2] = round(($r[1] / $total) * 100, 2);
+        }
+
+        return $rate;
+    }
+
+    public static function depositions(): array
+    {
+        return [
+            [
+                'name' => 'MELISSA ALVES',
+                'message' => '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus illum iusto odio! 
+                                Aspernatur autblanditiis
+                                dolorem exercitationem    explicabo magni minima non nulla officiis</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus illum iusto odio! 
+                                Aspernatur autblanditiis
+                                dolorem exercitationem    explicabo magni minima non nulla officiis</p>',
+                'stars' => 5,
+                'profile_picture' => get_template_directory_uri() . '/dist/imgs/depoimentos/melissa-alves.png'
+            ],
+            [
+                'name' => 'NATHAN GOMES',
+                'message' => '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus illum iusto odio! 
+                                Aspernatur autblanditiis
+                                dolorem exercitationem    explicabo magni minima non nulla officiis</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus illum iusto odio! 
+                                Aspernatur autblanditiis
+                                dolorem exercitationem    explicabo magni minima non nulla officiis</p>',
+                'stars' => 5,
+                'profile_picture' => get_template_directory_uri() . '/dist/imgs/depoimentos/nathan-gomes.png'
+            ],
+            [
+                'name' => 'THAÍS SILVA',
+                'message' => '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus illum iusto odio! 
+                                Aspernatur autblanditiis
+                                dolorem exercitationem    explicabo magni minima non nulla officiis</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus illum iusto odio! 
+                                Aspernatur autblanditiis
+                                dolorem exercitationem    explicabo magni minima non nulla officiis</p>',
+                'stars' => 5,
+                'profile_picture' => get_template_directory_uri() . '/dist/imgs/depoimentos/thais-silva.png'
+            ]
+        ];
+    }
 }

@@ -11,14 +11,14 @@
                     <div class="row">
                         <div class="col-12">
                             <h1>
-                                <span>Entre em</span>
+                                <span class="font-size-60">Entre em</span>
                                 <br>
-                                <span class="display-3">Contato</span>
+                                <span class="font-size-90 font-weight-bold text-danger">Contato</span>
                             </h1>
-                            <p>
+                            <p class="text-common mt-35 mb-70">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores corporis deleniti
                                 natus,
-                                recusandae repellendus saepe soluta.
+                                recusandae repelleNndus saepe soluta.
                             </p>
                         </div>
                         <div class="col-12">
@@ -52,9 +52,9 @@
                                     <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
                                 </div>
                                 <div class="col-12 d-flex justify-content-end my-4">
-                                    <button class="btn btn-primary">
+                                    <button class="btn btn-primary btn-form">
                                         Enviar
-                                        <i class="fas fa-paper-plane"></i>
+                                        <i class="fas fa-paper-plane ml-1"></i>
                                     </button>
                                 </div>
                             </div>

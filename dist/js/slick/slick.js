@@ -1,4 +1,4 @@
-System.register([], function (exports_1, context_1) {
+System.register(["../environment.js"], function (exports_1, context_1) {
     "use strict";
     var __assign = (this && this.__assign) || function () {
         __assign = Object.assign || function(t) {
@@ -11,14 +11,20 @@ System.register([], function (exports_1, context_1) {
         };
         return __assign.apply(this, arguments);
     };
-    var Slick;
+    var environment_js_1, Slick;
     var __moduleName = context_1 && context_1.id;
     return {
-        setters: [],
+        setters: [
+            function (environment_js_1_1) {
+                environment_js_1 = environment_js_1_1;
+            }
+        ],
         execute: function () {
             Slick = /** @class */ (function () {
                 function Slick() {
                     this.breakpoint = 1199;
+                    this.breakpointXL = 1399;
+                    this.bpts = environment_js_1.environment.breakpoints;
                     this.defaultOptions = {
                         dots: true,
                         arrows: false,
@@ -41,6 +47,7 @@ System.register([], function (exports_1, context_1) {
                     this.slickSecurityForCars();
                     this.slickSecurityForYou();
                     this.slickForCompany();
+                    this.slickInserurs();
                 }
                 /*
                 * Slick Por que Kaprice - Home
@@ -53,7 +60,7 @@ System.register([], function (exports_1, context_1) {
                 * Slick Seguro para carros opções
                 * */
                 Slick.prototype.slickSecurityForCars = function () {
-                    var securityForCars = __assign({}, this.defaultOptions, { rows: 2, responsive: [
+                    var securityForCars = __assign({}, this.defaultOptions, { rows: 1, responsive: [
                             {
                                 breakpoint: this.breakpoint,
                                 settings: {
@@ -61,7 +68,7 @@ System.register([], function (exports_1, context_1) {
                                     rows: 2,
                                     dots: false
                                 }
-                            }
+                            },
                         ] });
                     $('.security-container-wrapper').slick(securityForCars);
                 };
@@ -93,6 +100,37 @@ System.register([], function (exports_1, context_1) {
                             }
                         ] });
                     $('.security-for-company-wrapper-group-slick').slick(securityForYouOptions);
+                };
+                /* Seguradoras */
+                Slick.prototype.slickInserurs = function () {
+                    var slickInserurs = __assign({}, this.defaultOptions, { rows: 1, adaptiveHeight: true, centerPadding: '0', prevArrow: $('.prev'), nextArrow: $('.next'), dots: false, responsive: [
+                            {
+                                breakpoint: this.bpts.lg,
+                                settings: {
+                                    slidesToShow: 4,
+                                    rows: 1,
+                                    dots: false,
+                                    adaptiveHeight: true,
+                                    arrows: true,
+                                    infinite: true,
+                                },
+                            },
+                            {
+                                breakpoint: this.bpts.xl,
+                                settings: {
+                                    slidesToShow: 5,
+                                    dots: false,
+                                }
+                            },
+                            {
+                                breakpoint: this.bpts.x2,
+                                settings: {
+                                    slidesToShow: 6,
+                                    dots: false,
+                                }
+                            },
+                        ] });
+                    $('.inserurs-wrapper-group-slick').slick(slickInserurs);
                 };
                 return Slick;
             }());

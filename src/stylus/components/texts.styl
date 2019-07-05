@@ -1,4 +1,4 @@
-$font-sizes =  18 50 80 116 172 220;
+$font-sizes =  18 30 50 60 80 90 100 116 140 172 220;
 
 for i in $font-sizes
   .font-size-{i}
@@ -11,3 +11,15 @@ for i in $font-sizes
   letter-spacing: -5px;
 
 
+.font-gray-400 {
+  color $gray-400
+}
+
+.text-common {
+  @extends .font-gray-400
+  font-size 18px
+}
+
+.text-black {
+  color black
+}

@@ -21,6 +21,7 @@
         "gulp-babel": "^8.0.0",
         "gulp-concat": "*",
         "gulp-eslint": "*",
+        "gulp-notify": "^3.2.0",
         "gulp-postcss": "*",
         "gulp-sourcemaps": "^2.6.5",
         "gulp-stylus": "*",

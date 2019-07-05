@@ -19,12 +19,19 @@ cicle() {
 
 
 .wrapper-why-kaprice {
-
+  padding-bottom 20px;
   // text por que
-
-  .why {
-    @media $min-lg {
-      margin-top 33px
+  h1 {
+    @media $max-xl {
+      textShadow()
+      span {
+        letter-spacing 0;
+      }
+    }
+    .why {
+      @media $min-xl {
+        margin-top 33px
+      }
     }
   }
 
@@ -84,14 +91,27 @@ cicle() {
 .security-cars-wrapper {
   background black
   color white
-  background-image url('../imgs/sections/kaprice-seguros-para-carros.jpg');
-  background-scale(120%, 135%, inherit)
+  background-size contain
   background-repeat no-repeat
+  background-image url('../imgs/sections/kaprice-seguros-para-carros-mobile.jpg');
+  @media $max-xl {
+    padding-top 300px;
+    text-align center;
+  }
+  @media $min-xl {
+    background-image url('../imgs/sections/kaprice-seguros-para-carros.jpg');
+    padding-bottom 50px;
+  }
+  // Isso só vale para desktop
+  background-scale(120%, 135%, 100%)
   padding-top-scale(300px, 400px, 470px)
-  padding-bottom 50px
 
   .title-header {
     h1 {
+      textShadow()
+      @media $max-xl {
+        transform scale(.8);
+      }
       scale-desk-grid(.7, .85, 1)
       //transform-origin left
 
@@ -101,6 +121,12 @@ cicle() {
         }
       }
     }
+  } // title-header
+  @media $max-xl {
+    h2 {
+      font-size 1.5rem
+      margin-top 20px;
+    }
   }
 }
 
@@ -108,6 +134,9 @@ cicle() {
 .security-container-wrapper {
   width 100%
   margin-top 80px
+  @media $max-xl {
+    transform scale(.8)
+  }
 
   .security-wrapper {
     outline none
@@ -125,6 +154,9 @@ cicle() {
     .title {
       font-weight bold
       height 85px
+      @media $max-xl {
+        font-size 20px;
+      }
       @media $min-xl {
         font-size 18px
       }
@@ -135,18 +167,31 @@ cicle() {
 
     .text {
       margin-bottom 60px
+      @media $max-xl {
+        display none
+      }
     }
   }
 }
 
 .secutiry-for-you-container {
-  background-image url('../imgs/sections/background-seguro-para-voce.png');
-  //background-scale(120%, 135%, cover)
   background-repeat no-repeat
-  padding-top 470px
   background-position top center
-  margin-top -200px
+  margin-top -70px
   padding-bottom 280px
+  @media $max-xl {
+    padding-bottom 230px
+  }
+  padding-top 470px
+  background-size 100vw
+  background-image url('../imgs/sections/background-seguro-para-voce-mobile.png');
+  text-align center
+  @media $min-xl {
+    text-align initial
+    background-image url('../imgs/sections/background-seguro-para-voce.png');
+  }
+  background-scale(120%, 135%, 100%)
+  padding-top-scale(470px, 470px, 530px)
 
   .title-header {
     scale-desk-grid(.7, .9, 1);
@@ -168,6 +213,9 @@ cicle() {
     }
 
     .text {
+      @media $max-xl {
+        display none
+      }
       text-align center
       padding-top-scale(20px, 30px, inherit)
     }
@@ -181,21 +229,56 @@ cicle() {
   }
 }
 
+// [seguro para empresa, homen setado, empresa]
 .secutiry-for-company-container {
   margin-top -180px
-  padding-top 700px
-  padding-bottom 300px
-  background-image url('../imgs/sections/background-seguro-para-empresas.png');
+  background-position top;
+  background-repeat no-repeat;
+  background-image url('../imgs/sections/background-seguro-para-empresas-mobile.png');
+  background-color black
+  background-size 100vw
+  @media $max-xl{
+    text-align center
+    padding-top: 290px;
+    h1 {
+      transform: scale(.7);
+      transform-origin: center;
+      color white
+    }
+
+    .text {
+      margin-bottom 60px;
+    }
+  }
+  @media $min-xl {
+    background-image url('../imgs/sections/background-seguro-para-empresas.png') , linear-gradient(white 49%, black 49%);
+  }
+
+  background-scale( 100vw, 100vw, 100vw );
+  padding-top-scale( 370px, 520px, 700px );
+  padding-bottom-scale( 80px, 220px, 300px );
+
+  .title-header {
+    white-space nowrap
+    scale-desk-grid(.7, .8, 1)
+    transform-origin left
+  }
 }
 
 .security-for-company-wrapper-group-slick {
   .security-for-company {
-    margin-bottom 90px
+    margin-bottom 0
+    @media $min-xl {
+      margin-bottom 90px
+    }
 
+    .icon {
+      scale-desk-grid(.7, .8, 1)
+    }
     .title {
       margin-top 25px
       margin-bottom 25px
-      font-size 18px
+      font-size-grid(17px, 17px, 18px)
     }
     .text {
       font-size 14px
@@ -207,7 +290,10 @@ cicle() {
   }
 }
 
+
+
 // disabled outline slick
 .slick-slide {
   outline: none !important
 }
+

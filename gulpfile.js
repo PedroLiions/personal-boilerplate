@@ -29,6 +29,7 @@ var gulp = require('gulp'),
     cssnano = require('cssnano'),
     pump = require('pump'),
     tinypng = require('gulp-tinypng-compress'),
+    notify = require('gulp-notify'),
     babel = require('gulp-babel');
 
 /*
@@ -76,6 +77,7 @@ gulp.task('css', function () {
     return gulp.src(['src/css/main.css', env.node + 'animate.css/animate.css'])
         .pipe(concat('main.css'))
         .pipe(gulp.dest('dist/css/'))
+        .pipe(notify('CSS Compilado'))
 });
 
 gulp.task('stylus', gulp.series(env.task.css, 'css'));

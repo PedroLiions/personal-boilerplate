@@ -1,0 +1,64 @@
+.faq {
+  .card {
+    //border 4px solid $purple-900
+    margin-bottom 25px
+    border-radius 5px
+    border 0
+    box-shadow 2px 4px 0 1px #e6e6e6;
+
+    .card-header {
+      border-bottom 0
+      padding 0
+      background transparent
+
+      .btn {
+        position relative
+        font-weight bold
+        padding: 35px 80px 35px 25px;
+        width 100%
+        text-align left
+        white-space initial
+        text-decoration none
+        border-radius: 5px 5px 0 0;
+        background-color #0e0e0e
+        box-shadow none
+        color white
+
+        &:after {
+          font-family: "Font Awesome 5 Free"
+          content: "\f068";
+          width: 40px;
+          height: 40px;
+          color: white;
+          background-color: $red;
+          font-weight: 700;
+          display: flex;
+          justify-content: center;
+          font-size: 21px;
+          align-items: center;
+          position: absolute;
+          right: 25px;
+          top: 50%;
+          transform: translateY(-50%);
+          border-radius 200px
+        }
+
+        &.collapsed {
+          background-color transparent
+          color $gray-600
+          border-radius 5px
+
+          &:after {
+            content "\f067"
+          }
+        }
+      }
+    }
+
+    .card-body {
+      color $gray-600;
+      font-size $font-size-base;
+      padding 30px 25px 55px 25px;
+    }
+  }
+}

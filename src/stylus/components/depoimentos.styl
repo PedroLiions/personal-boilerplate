@@ -1,0 +1,53 @@
+.depoiment-wrapper {
+  box-shadow 6px 10px 0 1px #e6e6e6;
+  padding 50px 30px;
+  border-radius 10px;
+  width 30%
+  max-width 430px
+  position relative
+
+  &:before, &:after {
+    content url("../imgs/icons/quote.svg")
+    position absolute
+  }
+
+  &:before {
+    left -6px
+    top -21px
+  }
+  &:after {
+    right -6px
+    bottom -21px
+  }
+
+  .text {
+    text-align center
+  }
+
+  .name {
+    font-weight bold
+    color black
+    font-size 16px
+    text-align center
+    margin-top 20px
+  }
+
+  .stars {
+    width 130px
+    border 2px solid #e0e0e0
+    display: flex
+    justify-content space-around
+    padding 7px
+    border-radius 5px;
+    i {
+      width 20px;
+      text-align center
+    }
+  }
+
+  .profile-picture {
+    margin-top 10px;
+    position absolute;
+    bottom -40px
+  }
+}

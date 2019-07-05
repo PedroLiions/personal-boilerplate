@@ -1,3 +1,123 @@
-footer {
-  background #c01713;
-}
+.footer {
+  .nav-wrapper {
+    background #c01713;
+  }
+
+  /* Menu Footer */
+
+  .wrapper-footer-menu {
+    .footer-menu {
+      height: 770px;
+      @media $max-x2 {
+        height: 820px;
+      }
+      @media $max-x3 {
+        height: 940px;
+      }
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+
+      @media $max-x2 {
+        padding-left 0;
+      }
+
+      > li {
+        width 100%
+        max-width 370px
+        margin-right 50px
+        @media $max-x3 {
+          max-width 300px;
+        }
+        @media $max-x3 {
+          margin-right 0
+          padding-left 0
+        }
+        padding 0 20px;
+        margin-bottom 20px
+        position relative
+        a {
+          color white
+          font-size 14px
+          font-weight 400
+        }
+        > a {
+          display flex
+          justify-content space-between
+          align-items center
+          color white
+          font-size 22px
+          letter-spacing 5px
+          text-transform uppercase
+          font-weight bold
+          position relative
+          &:after {
+            content ""
+            width 30px
+            height 2px
+            background-color #f7c407
+            color white
+          } // after
+        }
+
+        .sub-menu {
+            padding-left 0;
+            li {
+              width 100%
+              max-width 370px
+              padding-right 70px
+              margin-bottom 7px
+              position relative
+              padding-left 20px;
+              &:before {
+                content "";
+                position absolute
+                width 4px;
+                height 4px;
+                left: 0
+                top: 12px
+                background-color #f7c407
+              }
+
+              a {
+                color white
+                font-size 14px
+                font-weight 400
+              }
+            }
+          } // sub-menu
+
+
+
+      } // li
+    }
+  }
+
+  .follow-kaprice {
+    color white
+    font-weight bold
+
+    &:after {
+      content ""
+      width 48px;
+      height 1px
+      background: #f7c407
+      margin-left 10px
+      margin-top 14px;
+      margin-right 15px;
+    }
+  }
+
+  .sociais {
+    a {
+      color white
+      font-size 19px;
+      &:first-of-type {
+        margin-right 15px;
+      }
+    }
+  }
+
+} // footer
+
+
