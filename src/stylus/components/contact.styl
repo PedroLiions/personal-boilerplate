@@ -1,23 +1,68 @@
 .wrapper-contact-form {
-  .container{
-    padding-bottom 350px
+  @media $max-xl {
+    .text-common {
+      font-size 12px
+    }
+  }
+  @media $min-xl {
+    .container {
+      padding-bottom 350px
+    }
+
+    .wrapper-background-one {
+      background-repeat no-repeat
+      background-image url('../imgs/background-contato-equipe-1.png');
+    }
+
+    .wrapper-background-two {
+      background-repeat no-repeat
+      background-image url('../imgs/background-contato-equipe-2.png');
+      background-position-x 100%
+    }
+
+    .wrapper-background-three-mask {
+      background-repeat no-repeat
+      background-image url('../imgs/background-contato-mask.png');
+      background-position bottom
+    }
   }
 
-  .wrapper-background-one {
-    background-repeat no-repeat
-    background-image url('../imgs/background-contato-equipe-1.png');
-  }
+  .contact-info-wrapper {
+    .subtitle {
+      font-size 12px
+      @media $min-xl {
+        font-size 18px;
+      }
+    }
 
-  .wrapper-background-two {
-    background-repeat no-repeat
-    background-image url('../imgs/background-contato-equipe-2.png');
-    background-position-x 100%
-  }
+    .title {
+      font-size 15px;
+      @media $min-xl {
+        font-size 28px;
+      }
+    }
 
-  .wrapper-background-three-mask {
-    background-repeat no-repeat
-    background-image url('../imgs/background-contato-mask.png');
-    background-position bottom
+    .number-icon {
+      @media $min-xl {
+        margin-bottom 40px;
+      }
+      .number {
+        font-size 14px;
+        @media $min-xl {
+          font-size 24px;
+        }
+      }
+
+      .icon {
+        font-size 24px;
+        color #141414;
+        margin-right 12px;
+        @media $min-xl {
+          font-size 56px;
+          margin-right 30px;
+        }
+      }
+    } // number icon
   }
 
 }

@@ -27,13 +27,15 @@
         "gulp-stylus": "*",
         "gulp-tinypng-compress": "^1.2.5",
         "gulp-uglify": "^3.0.2",
+        "inputmask": "^4.0.8",
         "jquery": "^3.4.1",
         "jquery-mask-plugin": "^1.14.15",
         "pump": "*",
         "slick-carousel": "^1.8.1",
         "slickjs": "^1.0.0",
         "systemjs": "^3.1.6",
-        "typescript": "^3.5.2"
+        "typescript": "^3.5.2",
+        "vanilla-text-mask": "^5.1.1"
     },
     "devDependencies": {
         "@fortawesome/fontawesome-free": "^5.9.0"

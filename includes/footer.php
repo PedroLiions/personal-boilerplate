@@ -1,7 +1,7 @@
 <footer class="footer">
 
     <div class="nav-wrapper">
-        <div class="container-fluid">
+        <div class="container-fluid py-40 py-xl-0">
             <div class="row">
                 <div class="col-12 col-lg-3">
                     <div class="logo mb-40 pt-20">
@@ -20,7 +20,7 @@
                         </p>
                         <a href="#" class="text-black link-underline font-weight-bold">CONTINUE LENDO</a>
                     </div>
-                    <div class="d-flex flex-row mt-85">
+                    <div class="d-flex flex-row mt-30 mt-xl-85">
                         <div class="follow-kaprice d-flex justify-content-between">
                             Siga a KAPRICE
                         </div>
@@ -33,7 +33,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="mt-120">
+                    <div class="mt-120 d-none d-lg-block">
                         <img src="<?= get_template_directory_uri() ?>/dist/imgs/personas/family-footer.png" alt="" class="img-fluid">
                     </div>
                 </div>
@@ -57,7 +57,11 @@
 
 </footer>
 
+
+
+
 <script src="<?= node_modules_path() ?>/jquery/dist/jquery.min.js"></script>
+<script src="<?= node_modules_path() ?>/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
 <script src="<?= node_modules_path() ?>/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="<?= node_modules_path() ?>/slick-carousel/slick/slick.min.js"></script>
 <script src="<?= node_modules_path() ?>/systemjs/dist/system.min.js"></script>

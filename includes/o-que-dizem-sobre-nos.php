@@ -17,8 +17,9 @@
             </div>
 
             <div class="col-12">
-                <div class="pb-70 mb-100 d-flex justify-content-between">
+                <div class="pb-70 mb-100 d-flex justify-content-between depoiment-container-slick">
                     <?php foreach (Data::depositions() as $data) : ?>
+                    <div>
                         <div class="depoiment-wrapper d-flex flex-column align-items-center">
                             <div class="text font-gray-400 font-size-14">
                                 <?= $data['message'] ?>
@@ -33,6 +34,7 @@
                                 <img src="<?= $data['profile_picture'] ?>" alt="">
                             </div>
                         </div>
+                    </div>
                     <?php endforeach; ?>
                 </div>
             </div>

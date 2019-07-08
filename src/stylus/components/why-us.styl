@@ -1,7 +1,13 @@
 .why-us {
+  text-align center;
+  @media $min-xl {
+    text-align initial
+  }
   .title-header {
     scale-desk-grid(.7, .85, 1)
     transform-origin left
-    white-space nowrap
+    @media $min-xl {
+      white-space nowrap
+    }
   }
 }

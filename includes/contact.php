@@ -7,21 +7,41 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-5">
-                    <div class="row">
+                <div class="col-12 col-lg-5">
+                    <div class="row text-center text-lg-left">
                         <div class="col-12">
                             <h1>
                                 <span class="font-size-60">Entre em</span>
                                 <br>
                                 <span class="font-size-90 font-weight-bold text-danger">Contato</span>
                             </h1>
-                            <p class="text-common mt-35 mb-70">
+                            <p class="text-common mt-xl-35 mb-xl-70 mt-20 mb-20">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores corporis deleniti
-                                natus,
-                                recusandae repelleNndus saepe soluta.
+                                natus.
                             </p>
                         </div>
                         <div class="col-12">
+                            <div class="row contact-info-wrapper text-left">
+                                <div class="col-6 order-lg-1 d-flex flex-column">
+                                    <span class="subtitle font-gray-400">Tem alguma dúvida?</span>
+                                    <span class="title text-danger font-weight-bold">ENTRE EM CONTATO</span>
+                                </div>
+                                <div class="col-6 order-lg-3 number-icon mt-xl-20 d-flex justify-content-start align-items-center">
+                                    <i class="fas fa-phone-volume icon"></i>
+                                    <span class="text-danger font-weight-bold number">11 3873.7909</span>
+                                </div>
+
+                                <div class="col-6 order-lg-2 d-flex flex-column">
+                                    <span class="subtitle font-gray-400">Envie um</span>
+                                    <span class="title text-danger font-weight-bold">WHATSAPP</span>
+                                </div>
+                                <div class="col-6 order-lg-4 number-icon mt-xl-20 d-flex justify-content-start align-items-center">
+                                    <i class="fab fa-whatsapp icon"></i>
+                                    <span class="text-danger font-weight-bold number">11 3873.7909</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-none d-lg-block">
                             <div class="row">
                                 <div class="col-12 col-xl-6">
                                     <div class="form-group">
@@ -58,6 +78,12 @@
                                     </button>
                                 </div>
                             </div>
+                        </div>
+                        <div class="d-lg-none col-12">
+                            <button class="btn btn-primary btn-form d-flex justify-content-between w-100 my-25">
+                                SOLICITE UM CONTATO
+                                <i class="fas fa-paper-plane ml-1"></i>
+                            </button>
                         </div>
                     </div>
                 </div> <!-- col-4 -->

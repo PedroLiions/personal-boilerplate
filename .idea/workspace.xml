@@ -2,46 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a36f079-5983-4cb0-bc6d-3096f4848130" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/imgs/icons/quote.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/anos-de-parceria.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/avaliacoes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/duvidas-frequentes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/o-que-dizem-sobre-nos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page-home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stylus/components/anos-de-parceria.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stylus/components/avaliacoes.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stylus/components/depoimentos.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stylus/components/faq.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stylus/components/why-us.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stylus/helpers/common.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/breadcrumb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stylus/components/breadcrumb.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stylus/components/post-content.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stylus/layout/contact-page-wrapper.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stylus/pages/auto.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ts/layout/breadcrumb.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ts/mask/mask.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp-auto.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/Data.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/Data.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/imgs/hero/kaprice-seguros-criancas-brincando.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/imgs/hero/kaprice-seguros-criancas-brincando.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/environment.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/environment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/bootstrap/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/bootstrap/bootstrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/slick/slick.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/slick/slick.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/o-que-dizem-sobre-nos.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/o-que-dizem-sobre-nos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylus/components/buttons.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylus/components/buttons.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stylus/components/contact.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylus/components/contact.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylus/components/depoimentos.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylus/components/depoimentos.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stylus/components/hero.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylus/components/hero.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylus/components/texts.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylus/components/texts.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylus/helpers/mixins.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylus/helpers/mixins.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylus/helpers/scales.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylus/helpers/scales.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylus/helpers/separator.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylus/helpers/separator.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylus/helpers/sizes.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylus/helpers/sizes.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylus/helpers/variables.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylus/helpers/variables.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylus/layout/footer.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylus/layout/footer.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylus/layout/forms.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylus/layout/forms.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylus/components/why-us.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylus/components/why-us.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylus/helpers/common.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylus/helpers/common.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stylus/main.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylus/main.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylus/pages/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylus/pages/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ts/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ts/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ts/bootstrap/bootstrap.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ts/bootstrap/bootstrap.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ts/slick/slick.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ts/slick/slick.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,33 +59,26 @@
     <favorites_list name="kaprice" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stylus/components/anos-de-parceria.styl">
+        <entry file="file://$PROJECT_DIR$/tp-auto.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page-home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="86" column="33" lean-forward="true" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
+            <state relative-caret-position="165">
+              <caret line="172" column="55" selection-start-line="172" selection-start-column="55" selection-end-line="172" selection-end-column="55" />
               <folding>
-                <element signature="e#10#79#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#main#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+                <element signature="e#3702#3709#1#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stylus/pages/index.styl">
+        <entry file="file://$PROJECT_DIR$/src/stylus/pages/auto.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="134" column="12" lean-forward="true" selection-start-line="134" selection-start-column="12" selection-end-line="138" selection-end-column="3" />
+            <state relative-caret-position="-225">
+              <caret line="102" column="28" lean-forward="true" selection-start-line="101" selection-start-column="22" selection-end-line="102" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -107,17 +86,35 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ts/slick/slick.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="121" column="33" lean-forward="true" selection-start-line="121" selection-start-column="33" selection-end-line="121" selection-end-column="33" />
+            <state relative-caret-position="181">
+              <caret line="212" column="32" selection-start-line="212" selection-start-column="32" selection-end-line="212" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stylus/helpers/variables.styl">
+        <entry file="file://$PROJECT_DIR$/src/ts/environment.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="78">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/Data.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="299" column="103" lean-forward="true" selection-start-line="299" selection-start-column="103" selection-end-line="299" selection-end-column="103" />
+              <folding>
+                <element signature="n#whyKaprice#0;n#Data#0;n#!!top" />
+                <element signature="n#securityOptions#0;n#Data#0;n#!!top" />
+                <element signature="n#securityForYou#0;n#Data#0;n#!!top" />
+                <element signature="n#securityForCompany#0;n#Data#0;n#!!top" />
+                <element signature="n#insurers#0;n#Data#0;n#!!top" />
+                <element signature="n#rate#0;n#Data#0;n#!!top" />
+                <element signature="n#depositions#0;n#Data#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,36 +123,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>py-x</find>
-      <find>wrapper-why-kaprice</find>
-      <find>Seguro para</find>
-      <find>security-cars-wrapper</find>
-      <find>seguro para</find>
-      <find>text-shadow</find>
-      <find>separar-white</find>
-      <find>se</find>
-      <find>col-12 col-lg-6 col-xl-5</find>
-      <find>security-for-you-wrapper</find>
-      <find>company</find>
-      <find>security-for-company</find>
-      <find>segurado</find>
-      <find>inserurs</find>
-      <find>stylus</find>
-      <find>css</find>
-      <find>'css'</find>
-      <find>background:</find>
-      <find>background</find>
-      <find>text-right</find>
-      <find>dúvidas</find>
-      <find>avaliações</find>
-      <find>col-lg-9</find>
-      <find>inserurs-wrapper-group-slick</find>
-      <find>anos-de-parceria-container</find>
-      <find>white</find>
-      <find>Conheça</find>
-      <find>para carro</find>
-      <find>security-container-wrapper</find>
-      <find>for</find>
+      <find>text-common mt-35 mb-70</find>
+      <find>text-center</find>
+      <find>141414</find>
+      <find>mt-120</find>
+      <find>container-fluid</find>
+      <find>d-flex flex-row mt-85</find>
+      <find>fill</find>
+      <find>col-6 order-lg-3 number-icon</find>
+      <find>icon</find>
+      <find>anos-de-parceria</find>
+      <find>a3a3a2</find>
+      <find>col-12</find>
+      <find>6d6e71</find>
+      <find>enviar</find>
+      <find>title-wrapper</find>
+      <find>contact-page-wrapper</find>
+      <find>resolve</find>
+      <find>alias</find>
+      <find>dependencyLibs</find>
+      <find>Salvar Muda</find>
+      <find>export</find>
+      <find>Module</find>
+      <find>securityOpc</find>
+      <find>security-wrapper d-flex text-center flex-column justify-content-center</find>
+      <find>System</find>
+      <find>tp-auto-security-options</find>
+      <find>security-wrapper</find>
+      <find>cons</find>
+      <find>constru</find>
+      <find>differentialKaprice</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -170,62 +167,62 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/js/index.js" />
-        <option value="$PROJECT_DIR$/src/stylus/layout/header.styl" />
-        <option value="$PROJECT_DIR$/src/css/main.css" />
-        <option value="$PROJECT_DIR$/src/stylus/helpers/background.styl" />
-        <option value="$PROJECT_DIR$/src/js/z.nav.controller.js" />
-        <option value="$PROJECT_DIR$/src/stylus/layout/header/nav-mobile.styl" />
-        <option value="$PROJECT_DIR$/src/stylus/layout/header/nav.styl" />
-        <option value="$PROJECT_DIR$/src/stylus/layout/header/nav-desktop.styl" />
-        <option value="$PROJECT_DIR$/src/stylus/components/container.styl" />
         <option value="$PROJECT_DIR$/src/ts/index.ts" />
         <option value="$PROJECT_DIR$/src/stylus/components/slick.styl" />
         <option value="$PROJECT_DIR$/src/ts/bootstrap/app.ts" />
         <option value="$PROJECT_DIR$/data/why-kaprice-home.php" />
         <option value="$PROJECT_DIR$/data/Data.class.php" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
-        <option value="$PROJECT_DIR$/src/ts/bootstrap/bootstrap.ts" />
         <option value="$PROJECT_DIR$/src/ts/app.ts" />
         <option value="$PROJECT_DIR$/src/ts/environment.ts" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/src/stylus/components/why-us.styl" />
         <option value="$PROJECT_DIR$/src/stylus/components/avaliacoes.styl" />
         <option value="$PROJECT_DIR$/dist/imgs/icons/quote.svg" />
-        <option value="$PROJECT_DIR$/data/Data.php" />
-        <option value="$PROJECT_DIR$/includes/o-que-dizem-sobre-nos.php" />
-        <option value="$PROJECT_DIR$/src/stylus/components/depoimentos.styl" />
-        <option value="$PROJECT_DIR$/includes/contact.php" />
         <option value="$PROJECT_DIR$/src/stylus/components/faq.styl" />
         <option value="$PROJECT_DIR$/src/stylus/layout/forms.styl" />
-        <option value="$PROJECT_DIR$/src/stylus/components/contact.styl" />
         <option value="$PROJECT_DIR$/src/stylus/helpers/variables.styl" />
         <option value="$PROJECT_DIR$/includes/header.php" />
         <option value="$PROJECT_DIR$/src/stylus/helpers/sizes.styl" />
         <option value="$PROJECT_DIR$/functions.php" />
-        <option value="$PROJECT_DIR$/src/stylus/main.styl" />
-        <option value="$PROJECT_DIR$/src/stylus/helpers/common.styl" />
         <option value="$PROJECT_DIR$/src/stylus/components/texts.styl" />
         <option value="$PROJECT_DIR$/src/stylus/helpers/scales.styl" />
-        <option value="$PROJECT_DIR$/includes/footer.php" />
         <option value="$PROJECT_DIR$/src/stylus/layout/footer.styl" />
         <option value="$PROJECT_DIR$/src/stylus/components/buttons.styl" />
-        <option value="$PROJECT_DIR$/src/stylus/components/hero.styl" />
         <option value="$PROJECT_DIR$/src/stylus/helpers/mixins.styl" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/page-home.php" />
         <option value="$PROJECT_DIR$/includes/anos-de-parceria.php" />
         <option value="$PROJECT_DIR$/includes/duvidas-frequentes.php" />
         <option value="$PROJECT_DIR$/includes/avaliacoes.php" />
         <option value="$PROJECT_DIR$/src/stylus/components/anos-de-parceria.styl" />
         <option value="$PROJECT_DIR$/src/stylus/helpers/separator.styl" />
         <option value="$PROJECT_DIR$/src/stylus/pages/index.styl" />
+        <option value="$PROJECT_DIR$/src/stylus/components/why-us.styl" />
+        <option value="$PROJECT_DIR$/includes/o-que-dizem-sobre-nos.php" />
+        <option value="$PROJECT_DIR$/src/stylus/components/depoimentos.styl" />
+        <option value="$PROJECT_DIR$/src/stylus/components/hero.styl" />
+        <option value="$PROJECT_DIR$/includes/contact.php" />
+        <option value="$PROJECT_DIR$/src/stylus/components/contact.styl" />
+        <option value="$PROJECT_DIR$/includes/breadcrumb.php" />
+        <option value="$PROJECT_DIR$/src/stylus/main.styl" />
+        <option value="$PROJECT_DIR$/src/stylus/helpers/common.styl" />
+        <option value="$PROJECT_DIR$/src/stylus/components/post-content.styl" />
+        <option value="$PROJECT_DIR$/src/stylus/components/breadcrumb.styl" />
+        <option value="$PROJECT_DIR$/src/ts/layout/breadcrumb.ts" />
+        <option value="$PROJECT_DIR$/src/stylus/layout/contact-page-wrapper.styl" />
+        <option value="$PROJECT_DIR$/src/ts/mask/mask.js" />
+        <option value="$PROJECT_DIR$/src/ts/bootstrap/bootstrap.ts" />
+        <option value="$PROJECT_DIR$/includes/footer.php" />
+        <option value="$PROJECT_DIR$/src/ts/mask/mask.ts" />
+        <option value="$PROJECT_DIR$/page-home.php" />
+        <option value="$PROJECT_DIR$/data/Data.php" />
+        <option value="$PROJECT_DIR$/src/stylus/pages/auto.styl" />
+        <option value="$PROJECT_DIR$/tp-auto.php" />
         <option value="$PROJECT_DIR$/src/ts/slick/slick.ts" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="448" />
+    <option name="x" value="2234" />
     <option name="y" value="-8" />
     <option name="width" value="814" />
     <option name="height" value="607" />
@@ -236,6 +233,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,26 +244,12 @@
             <path>
               <item name="kaprice" type="b2602c69:ProjectViewProjectNode" />
               <item name="kaprice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kaprice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kaprice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="stylus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kaprice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kaprice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="stylus" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -334,12 +318,14 @@
       <workItem from="1562153827952" duration="99000" />
       <workItem from="1562245680452" duration="21568000" />
       <workItem from="1562277503984" duration="10000" />
-      <workItem from="1562326682213" duration="8807000" />
+      <workItem from="1562326682213" duration="15517000" />
+      <workItem from="1562353190299" duration="1082000" />
+      <workItem from="1562587345177" duration="26494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133668000" />
+    <option name="totallyTimeSpent" value="167954000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,13 +337,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" order="0" side_tool="true" weight="0.3295626" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49534884" visible="true" weight="0.24095745" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49213484" visible="true" weight="0.19683258" />
       <window_info id="Favorites" order="2" sideWeight="0.502193" side_tool="true" weight="0.27224737" />
-      <window_info id="Structure" order="3" sideWeight="0.5046512" side_tool="true" weight="0.2413273" />
+      <window_info id="Structure" order="3" sideWeight="0.5078652" side_tool="true" visible="true" weight="0.19683258" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -368,7 +354,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29773462" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27642277" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="12" weight="0.32901832" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -378,7 +364,7 @@
     </layout>
     <layout-to-restore>
       <window_info id="Gulp" order="0" side_tool="true" weight="0.3295626" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49534884" visible="true" weight="0.2413273" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49534884" visible="true" weight="0.24095745" />
       <window_info id="Favorites" order="2" sideWeight="0.502193" side_tool="true" weight="0.27224737" />
       <window_info id="Structure" order="3" sideWeight="0.5046512" side_tool="true" weight="0.2413273" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -391,7 +377,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30081302" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29773462" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="12" weight="0.32901832" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -410,159 +396,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/js/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/js/z.nav.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylus/components/slick.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ts/environment.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/js/bootstrap/app.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/js/environment.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/imgs/background-contato-equipe-1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylus/layout/header.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ts/bootstrap/bootstrap.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="8806" column="1" selection-start-line="8806" selection-start-column="1" selection-end-line="8806" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ts/app.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylus/components/why-us.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylus/components/avaliacoes.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/imgs/icons/quote.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/o-que-dizem-sobre-nos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/Data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="268" column="13" lean-forward="true" selection-start-line="268" selection-start-column="13" selection-end-line="268" selection-end-column="13" />
-          <folding>
-            <element signature="n#whyKaprice#0;n#Data#0;n#!!top" />
-            <element signature="n#securityOptions#0;n#Data#0;n#!!top" />
-            <element signature="n#securityForYou#0;n#Data#0;n#!!top" />
-            <element signature="n#securityForCompany#0;n#Data#0;n#!!top" />
-            <element signature="n#insurers#0;n#Data#0;n#!!top" />
-            <element signature="n#rate#0;n#Data#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="43" column="50" lean-forward="true" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylus/components/contact.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylus/layout/forms.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -588,37 +421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="16" column="26" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylus/main.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylus/helpers/common.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylus/components/texts.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-          <folding>
-            <element signature="e#2111#2117#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,16 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylus/components/hero.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-          <folding>
-            <element signature="e#14#1445#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stylus/helpers/mixins.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -667,31 +459,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ts/environment.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylus/components/depoimentos.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/duvidas-frequentes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="80" column="3" lean-forward="true" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -723,34 +494,270 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-home.php">
+    <entry file="file://$PROJECT_DIR$/src/stylus/components/why-us.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylus/pages/index.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="136" column="18" lean-forward="true" selection-start-line="136" selection-start-column="18" selection-end-line="136" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylus/components/anos-de-parceria.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylus/components/depoimentos.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/o-que-dizem-sobre-nos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylus/components/texts.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylus/components/contact.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="38" column="66" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylus/components/hero.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/app.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/breadcrumb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylus/main.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylus/helpers/common.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
-          <caret line="86" column="33" lean-forward="true" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylus/components/post-content.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/layout/breadcrumb.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="49" column="63" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/inputmask/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/inputmask/dist/inputmask/inputmask.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/inputmask/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-36" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/bootstrap/bootstrap.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/jquery-mask-plugin/src/jquery.mask.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1456">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/mask/mask.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylus/layout/contact-page-wrapper.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1407">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylus/components/breadcrumb.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="110" column="106" selection-start-line="110" selection-start-column="106" selection-end-line="110" selection-end-column="106" />
           <folding>
             <element signature="e#10#79#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylus/components/anos-de-parceria.styl">
+    <entry file="file://$PROJECT_DIR$/dist/imgs/diferenciais/icon-experiencia.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/main.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        <state relative-caret-position="75">
+          <caret line="299" column="103" lean-forward="true" selection-start-line="299" selection-start-column="103" selection-end-line="299" selection-end-column="103" />
+          <folding>
+            <element signature="n#whyKaprice#0;n#Data#0;n#!!top" />
+            <element signature="n#securityOptions#0;n#Data#0;n#!!top" />
+            <element signature="n#securityForYou#0;n#Data#0;n#!!top" />
+            <element signature="n#securityForCompany#0;n#Data#0;n#!!top" />
+            <element signature="n#insurers#0;n#Data#0;n#!!top" />
+            <element signature="n#rate#0;n#Data#0;n#!!top" />
+            <element signature="n#depositions#0;n#Data#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylus/pages/index.styl">
+    <entry file="file://$PROJECT_DIR$/tp-auto.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="134" column="12" lean-forward="true" selection-start-line="134" selection-start-column="12" selection-end-line="138" selection-end-column="3" />
+        <state relative-caret-position="165">
+          <caret line="172" column="55" selection-start-line="172" selection-start-column="55" selection-end-line="172" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="e#3702#3709#1#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylus/pages/auto.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="102" column="28" lean-forward="true" selection-start-line="101" selection-start-column="22" selection-end-line="102" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/environment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ts/slick/slick.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="121" column="33" lean-forward="true" selection-start-line="121" selection-start-column="33" selection-end-line="121" selection-end-column="33" />
+        <state relative-caret-position="181">
+          <caret line="212" column="32" selection-start-line="212" selection-start-column="32" selection-end-line="212" selection-end-column="32" />
         </state>
       </provider>
     </entry>

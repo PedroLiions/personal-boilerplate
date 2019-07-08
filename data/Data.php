@@ -290,4 +290,36 @@ class Data
             ]
         ];
     }
+
+    public static function differentialKaprice() {
+        return [
+            [
+                'title' => 'ATENDIMENTO AQUI É',
+                'subtitle' => 'COISA SÉRIA',
+                'text' => 'A sua satisfação é a nossa principal meta. Trabalhamos e treinamos nossa equipe para atingir todos os adjetivos possíveis quando o assunto é o atendimento a você. A nossa maior alegria é finalizar um atendimento solucionando todos os seus problemas e deixando-o sempre feliz com a Kaprice.',
+                'icon' => get_template_directory_uri() . '/dist/imgs/diferenciais/icon-coisa-seria.png'
+            ],
+            [
+                'title' => 'AS MAIORES',
+                'subtitle' => 'SEGURADORAS',
+                'text' => [
+                    'E como oferecer o melhor atendimento sem parcerias estratégicas eficientes? Impossível!',
+                    'E é por isso que, não importa o ramo, temos a solução ideal para o seu caso, sempre auxiliado por um corretor especialista no assunto.'
+                ],
+                'icon' => get_template_directory_uri() . '/dist/imgs/diferenciais/icon-segurados.png'
+            ],
+            [
+                'title' => 'TEMOS 19 ANOS DE',
+                'subtitle' => 'EXPERIÊNCIA',
+                'text' => 'A experiência está do lado da Kaprice. São mais de 19 anos de experiência no ramo de seguros. Tamanha trajetória, realizada com muito sucesso, em conjunto com nossos parceiros para efetuar o melhor atendimento no ramo de seguro do mercado.',
+                'icon' => get_template_directory_uri() . '/dist/imgs/diferenciais/icon-experiencia.png'
+            ],
+            [
+                'title' => 'MILHARES DE',
+                'subtitle' => 'CLIENTES',
+                'text' => 'Em todos esses, realizamos os melhores trabalhos no segmento de seguros, gerando a satisfação de milhares de clientes, levando paz e tranquilidade para suas vidas e a de seus familiares. Venha experimentar a vida mais tranquila sendo cliente da Kaprice.',
+                'icon' => get_template_directory_uri() . '/dist/imgs/diferenciais/icon-clientes.png'
+            ],
+        ];
+    }
 }

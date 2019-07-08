@@ -1,0 +1,49 @@
+.post-content {
+  margin-top 50px;
+
+  @media $max-xl {
+    text-align center
+  }
+
+  p {
+    margin-bottom 30px;
+    margin-top 0;
+    padding-top 0;
+    padding-bottom 0;
+    color #6d6e71;
+    font-siz: 14px;
+  }
+
+  h1, h2 {
+    margin-bottom 25px;
+    margin-top 0;
+    padding-top 0;
+    padding-bottom 0;
+  }
+
+  h2 span {
+    @media $max-xl {
+      display block;
+
+      &.title {
+        font-size: 24px
+      }
+      &.subtitle {
+        font-size 40px;
+        font-weight bold;
+        text-transform uppercase;
+        color $red;
+      }
+    }
+  }
+
+  ul {
+    padding-left 0;
+    li {
+      &:before {
+        content "– "
+      }
+    }
+  }
+}
+

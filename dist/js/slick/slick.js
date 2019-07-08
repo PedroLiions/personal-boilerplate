@@ -48,6 +48,9 @@ System.register(["../environment.js"], function (exports_1, context_1) {
                     this.slickSecurityForYou();
                     this.slickForCompany();
                     this.slickInserurs();
+                    this.slickDepoiments();
+                    this.slickInsuranceOptions();
+                    this.slickDifferentialKaprice();
                 }
                 /*
                 * Slick Por que Kaprice - Home
@@ -60,12 +63,11 @@ System.register(["../environment.js"], function (exports_1, context_1) {
                 * Slick Seguro para carros opções
                 * */
                 Slick.prototype.slickSecurityForCars = function () {
-                    var securityForCars = __assign({}, this.defaultOptions, { rows: 1, responsive: [
+                    var securityForCars = __assign({}, this.defaultOptions, { rows: 2, responsive: [
                             {
                                 breakpoint: this.breakpoint,
                                 settings: {
                                     slidesToShow: 5,
-                                    rows: 2,
                                     dots: false
                                 }
                             },
@@ -103,7 +105,7 @@ System.register(["../environment.js"], function (exports_1, context_1) {
                 };
                 /* Seguradoras */
                 Slick.prototype.slickInserurs = function () {
-                    var slickInserurs = __assign({}, this.defaultOptions, { rows: 1, adaptiveHeight: true, centerPadding: '0', prevArrow: $('.prev'), nextArrow: $('.next'), dots: false, responsive: [
+                    var slickInserurs = __assign({}, this.defaultOptions, { rows: 1, adaptiveHeight: true, centerPadding: '0', prevArrow: $('.prev'), nextArrow: $('.next'), responsive: [
                             {
                                 breakpoint: this.bpts.lg,
                                 settings: {
@@ -131,6 +133,50 @@ System.register(["../environment.js"], function (exports_1, context_1) {
                             },
                         ] });
                     $('.inserurs-wrapper-group-slick').slick(slickInserurs);
+                };
+                /* Slick Depoimentos */
+                Slick.prototype.slickDepoiments = function () {
+                    var slickDepoiments = __assign({}, this.defaultOptions, { centerMode: false, slidesToShow: 1, responsive: [
+                            {
+                                breakpoint: this.bpts.xl,
+                                settings: {
+                                    adaptiveWidth: true,
+                                    slidesToShow: 3,
+                                    centerMode: false,
+                                    dots: false,
+                                }
+                            }
+                        ] });
+                    $('.depoiment-container-slick').slick(slickDepoiments);
+                };
+                //   Template page auto
+                Slick.prototype.slickInsuranceOptions = function () {
+                    var insurenceOptions = __assign({}, this.defaultOptions, { rows: 1, centerMode: false, slidesToShow: 1, responsive: [
+                            {
+                                breakpoint: this.bpts.lg,
+                                settings: {
+                                    rows: 2,
+                                    adaptiveHeight: true,
+                                    centerMode: false,
+                                    slidesToShow: 5,
+                                }
+                            }
+                        ] });
+                    $('.tp-auto-insurance-slick').slick(insurenceOptions);
+                };
+                //   Diferenciais kaprice
+                Slick.prototype.slickDifferentialKaprice = function () {
+                    var differentialKaprice = __assign({}, this.defaultOptions, { centerMode: false, slidesToShow: 1, responsive: [
+                            {
+                                breakpoint: this.bpts.lg,
+                                settings: {
+                                    rows: 1,
+                                    centerMode: false,
+                                    slidesToShow: 4,
+                                }
+                            }
+                        ] });
+                    $('.differential-kaprice-wrapper-slick').slick(differentialKaprice);
                 };
                 return Slick;
             }());
