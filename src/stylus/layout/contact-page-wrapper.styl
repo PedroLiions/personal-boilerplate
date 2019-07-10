@@ -32,6 +32,7 @@
   -webkit-background-clip: padding-box; /* for Safari */
   background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
   padding 50px 25px;
+  position relative;
 
   input.form-control, textarea.form-control  {
     border-radius 4px;
@@ -68,4 +69,11 @@
       margin-bottom 40px;
     }
   }
-}
+
+  &:after {
+    content: url(../imgs/icons/casa-carro.png);
+    position: absolute;
+    left: -72px;
+    bottom: -120px;
+  }
+} // contact-form-wrapper

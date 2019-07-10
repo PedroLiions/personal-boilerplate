@@ -163,19 +163,18 @@ export class Slick {
             ...this.defaultOptions,
             centerMode: false,
             slidesToShow: 1,
-            responsive: [
-                {
-                    breakpoint: this.bpts.xl,
-                    settings: {
-                        adaptiveWidth: true,
-                        slidesToShow: 3,
-                        centerMode: false,
-                        dots: false,
-                    }
-                }
-            ]
         };
-        $('.depoiment-container-slick').slick(slickDepoiments);
+        if (window.innerWidth <= this.breakpoint) {
+            $('.depoiment-container-slick').slick(slickDepoiments);
+        } else {
+            window.addEventListener('resize', () => {
+                if (window.innerWidth <= this.breakpoint) {
+                    $('.depoiment-container-slick').slick(slickDepoiments);
+                } else {
+                    $('.depoiment-container-slick').slick('unslick');
+                }
+            });
+        }
     }
 
 //   Template page auto
@@ -185,14 +184,16 @@ export class Slick {
             rows: 1,
             centerMode: false,
             slidesToShow: 1,
+            slidesToScroll: 1,
             responsive: [
                 {
-                    breakpoint: this.bpts.lg,
+                    breakpoint: 1199,
                     settings: {
-                        rows: 2,
-                        adaptiveHeight: true,
-                        centerMode: false,
+                        rows: 1,
                         slidesToShow: 5,
+                        slidesToScroll: 1,
+                        dots: false,
+                        centerMode: false,
                     }
                 }
             ]
@@ -206,6 +207,8 @@ export class Slick {
             ...this.defaultOptions,
             centerMode: false,
             slidesToShow: 1,
+            rows: 1,
+            slidesToScroll: 1,
             responsive: [
                 {
                     breakpoint: this.bpts.lg,
@@ -213,6 +216,7 @@ export class Slick {
                         rows: 1,
                         centerMode: false,
                         slidesToShow: 4,
+                        dots: false
                     }
                 }
             ]

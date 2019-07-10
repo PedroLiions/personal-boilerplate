@@ -9,12 +9,15 @@ export class Breadcrumb {
     }
 
     init() {
-        if (document.documentElement.clientWidth > this.breakpoint) this.calcPosition();
-        else this.setOriginal();
-        this.resize(() => {
-            if (document.documentElement.clientWidth > this.breakpoint) return this.calcPosition();
-            else this.setOriginal();
-        })
+        if (this.breadcrumb.length) {
+            if (document.documentElement.clientWidth > this.breakpoint) this.calcPosition();
+            else {
+                this.resize(() => {
+                    if (document.documentElement.clientWidth > this.breakpoint) return this.calcPosition();
+                    return this.setOriginal();
+                })
+            }
+        }
     }
 
     resize(callback: any) {

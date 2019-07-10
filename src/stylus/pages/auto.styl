@@ -43,10 +43,20 @@
   background-repeat no-repeat;
   background-position bottom center
   padding-bottom 285px;
+  @media $max-xl {
+    padding-bottom: 84px;
+    background-size: contain;
+  }
 
   .title-wrapper {
     font-size 30px;
     margin-bottom 20px;
+    @media $max-xl {
+      font-size 20px;
+      text-align center
+      margin-top 50px;
+      margin-bottom 0;
+    }
     span {
       display block;
       &.subtitle {
@@ -78,18 +88,34 @@
 .differential-kaprice-wrapper {
   background: black;
   color white;
+  @media $max-xl {
+    padding-bottom: 45px;
+  }
   .title-wrapper {
     padding-top 65px;
     padding-bottom 100px;
+    @media $max-xl {
+      padding-top 32px;
+      padding-bottom 25px;
+    }
     span {
+      @media $max-xl {
+        display block
+      }
       &.title {
         font-size 78px;
+        @media $max-xl {
+          font-size 23px;
+        }
       }
 
       &.subtitle {
         font-size: 116px;
         font-weight bold;
         color $warning
+        @media $max-xl {
+          font-size 40px;
+        }
       }
     }
   }
@@ -97,7 +123,11 @@
   .differential-kaprice-wrapper-slick {
     .differential-kaprice-item {
       > div {
-        width 280px;
+        @media $min-xl {
+          width 280px;
+          margin 0 auto;
+        }
+        text-align center
       }
       .title-wrapper {
         padding-bottom 30px;
@@ -105,6 +135,9 @@
         span {
           display block;
           text-align left;
+          @media $max-xl {
+            text-align center
+          }
 
           &.title {
             font-size 23px;
@@ -115,6 +148,13 @@
           }
         }
       }
+      p {
+        text-align center
+        @media $min-xl {
+          text-align left
+        }
+      }
     }
   }
+
 } // diferrence kaprice wrapper

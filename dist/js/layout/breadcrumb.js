@@ -13,16 +13,17 @@ System.register([], function (exports_1, context_1) {
                 }
                 Breadcrumb.prototype.init = function () {
                     var _this = this;
-                    if (document.documentElement.clientWidth > this.breakpoint)
-                        this.calcPosition();
-                    else
-                        this.setOriginal();
-                    this.resize(function () {
-                        if (document.documentElement.clientWidth > _this.breakpoint)
-                            return _this.calcPosition();
-                        else
-                            _this.setOriginal();
-                    });
+                    if (this.breadcrumb.length) {
+                        if (document.documentElement.clientWidth > this.breakpoint)
+                            this.calcPosition();
+                        else {
+                            this.resize(function () {
+                                if (document.documentElement.clientWidth > _this.breakpoint)
+                                    return _this.calcPosition();
+                                return _this.setOriginal();
+                            });
+                        }
+                    }
                 };
                 Breadcrumb.prototype.resize = function (callback) {
                     window.addEventListener('resize', function () { return callback(); });

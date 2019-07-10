@@ -8791,8 +8791,23 @@ address {
   font-size: 30px;
 }
 @media (max-width: 1200px) {
+  .wrapper-contact-form {
+    border-bottom: 2px solid #c01714;
+    background: url("../imgs/contact/background-mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   .wrapper-contact-form .text-common {
     font-size: 12px;
+  }
+}
+@media (max-width: 1200px) {
+  .wrapper-contact-form .wrapper-background-one {
+    background-image: url("../imgs/contact/separator-top.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 70px;
   }
 }
 @media (min-width: 1199px) {
@@ -8801,12 +8816,9 @@ address {
   }
   .wrapper-contact-form .wrapper-background-one {
     background-repeat: no-repeat;
-    background-image: url("../imgs/background-contato-equipe-1.png");
-  }
-  .wrapper-contact-form .wrapper-background-two {
-    background-repeat: no-repeat;
-    background-image: url("../imgs/background-contato-equipe-2.png");
-    background-position-x: 100%;
+    background-image: url("../imgs/contact/background-desktop-contact.png");
+    background-size: contain;
+    background-position: bottom right;
   }
   .wrapper-contact-form .wrapper-background-three-mask {
     background-repeat: no-repeat;
@@ -8853,6 +8865,13 @@ address {
     font-size: 56px;
     margin-right: 30px;
   }
+}
+.contact-separator-mobile {
+  background: url("../imgs/contact/separator-mobile.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 110px;
+  width: 100%;
 }
 .center-content {
   width: 100%;
@@ -9534,6 +9553,18 @@ address {
   margin-right: 15px;
 }
 @media (max-width: 1200px) {
+  .footer-bar .copy {
+    font-size: 10px;
+    text-align: center;
+  }
+}
+@media (max-width: 1200px) {
+  .footer-bar .xceler {
+    font-size: 10px;
+    color: #58595b;
+  }
+}
+@media (max-width: 1200px) {
   .contact-page-wrapper-mobile {
     border: 0;
     border-top: 10px solid rgba(0,0,0,0.3);
@@ -9562,6 +9593,7 @@ address {
   -webkit-background-clip: padding-box; /* for Safari */
   background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
   padding: 50px 25px;
+  position: relative;
 }
 .contact-page-wrapper input.form-control,
 .contact-page-wrapper textarea.form-control {
@@ -9599,6 +9631,12 @@ address {
 .contact-page-wrapper .title-wrapper p {
   color: #6d6e71;
   margin-bottom: 40px;
+}
+.contact-page-wrapper:after {
+  content: url("../imgs/icons/casa-carro.png");
+  position: absolute;
+  left: -72px;
+  bottom: -120px;
 }
 input.form-control {
   height: 40px;
@@ -9660,8 +9698,20 @@ textarea.form-control {
   color: #c01714;
 }
 .wrapper-header {
-  padding: 20px 0;
+  padding: 0;
   background: #1a1a19;
+}
+@media (min-width: 1199px) {
+  .wrapper-header {
+    height: 82px;
+  }
+}
+.wrapper-header .container-fluid,
+.wrapper-header .navigation-main {
+  height: 100%;
+}
+.wrapper-header .wrapper-logo {
+  padding: 20px 0;
 }
 .wrapper-header > div {
   display: flex;
@@ -9681,6 +9731,35 @@ textarea.form-control {
     justify-content: flex-end;
     flex-direction: row;
     margin: 0;
+    height: 100%;
+  }
+  .wrapper-header .navigation-main ul.nav-menu > li {
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .wrapper-header .navigation-main ul.nav-menu > li > .sub-menu {
+    display: none;
+    transition: linear 0.3s;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    background: #333132;
+  }
+  .wrapper-header .navigation-main ul.nav-menu > li > .sub-menu > li:not(.menu-item-has-children) {
+    padding-left: 12px;
+  }
+  .wrapper-header .navigation-main ul.nav-menu > li > .sub-menu > li:not(.menu-item-has-children):before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    left: 4px;
+    top: 12px;
+    background-color: #f7c407;
   }
   .wrapper-header .navigation-main ul.nav-menu > li a {
     text-transform: uppercase;
@@ -9693,7 +9772,7 @@ textarea.form-control {
     color: #fff;
     text-shadow: 1px 0 0 currentColor;
   }
-  .wrapper-header .navigation-main ul.nav-menu > li.menu-item-has-children a:after {
+  .wrapper-header .navigation-main ul.nav-menu > li.menu-item-has-children > a:after {
     text-rendering: auto;
     font-smoothing: antialiased;
     font-family: 'Font Awesome 5 Free';
@@ -9703,8 +9782,8 @@ textarea.form-control {
     color: #c01714;
     content: "\f078";
   }
-  .wrapper-header .navigation-main ul.nav-menu > li .sub-menu {
-    display: none;
+  .wrapper-header .navigation-main ul.nav-menu > li.menu-item-has-children:hover > .sub-menu {
+    display: block;
   }
 }
 @media (max-width: 1200px) {
@@ -10377,9 +10456,23 @@ textarea.form-control {
   background-position: bottom center;
   padding-bottom: 285px;
 }
+@media (max-width: 1200px) {
+  .tp-auto-security-options {
+    padding-bottom: 84px;
+    background-size: contain;
+  }
+}
 .tp-auto-security-options .title-wrapper {
   font-size: 30px;
   margin-bottom: 20px;
+}
+@media (max-width: 1200px) {
+  .tp-auto-security-options .title-wrapper {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
 }
 .tp-auto-security-options .title-wrapper span {
   display: block;
@@ -10407,20 +10500,52 @@ textarea.form-control {
   background: #000;
   color: #fff;
 }
+@media (max-width: 1200px) {
+  .differential-kaprice-wrapper {
+    padding-bottom: 45px;
+  }
+}
 .differential-kaprice-wrapper .title-wrapper {
   padding-top: 65px;
   padding-bottom: 100px;
 }
+@media (max-width: 1200px) {
+  .differential-kaprice-wrapper .title-wrapper {
+    padding-top: 32px;
+    padding-bottom: 25px;
+  }
+}
+@media (max-width: 1200px) {
+  .differential-kaprice-wrapper .title-wrapper span {
+    display: block;
+  }
+}
 .differential-kaprice-wrapper .title-wrapper span.title {
   font-size: 78px;
+}
+@media (max-width: 1200px) {
+  .differential-kaprice-wrapper .title-wrapper span.title {
+    font-size: 23px;
+  }
 }
 .differential-kaprice-wrapper .title-wrapper span.subtitle {
   font-size: 116px;
   font-weight: bold;
   color: #f8bc07;
 }
+@media (max-width: 1200px) {
+  .differential-kaprice-wrapper .title-wrapper span.subtitle {
+    font-size: 40px;
+  }
+}
 .differential-kaprice-wrapper .differential-kaprice-wrapper-slick .differential-kaprice-item > div {
-  width: 280px;
+  text-align: center;
+}
+@media (min-width: 1199px) {
+  .differential-kaprice-wrapper .differential-kaprice-wrapper-slick .differential-kaprice-item > div {
+    width: 280px;
+    margin: 0 auto;
+  }
 }
 .differential-kaprice-wrapper .differential-kaprice-wrapper-slick .differential-kaprice-item .title-wrapper {
   padding-bottom: 30px;
@@ -10429,11 +10554,24 @@ textarea.form-control {
   display: block;
   text-align: left;
 }
+@media (max-width: 1200px) {
+  .differential-kaprice-wrapper .differential-kaprice-wrapper-slick .differential-kaprice-item .title-wrapper span {
+    text-align: center;
+  }
+}
 .differential-kaprice-wrapper .differential-kaprice-wrapper-slick .differential-kaprice-item .title-wrapper span.title {
   font-size: 23px;
 }
 .differential-kaprice-wrapper .differential-kaprice-wrapper-slick .differential-kaprice-item .title-wrapper span.subtitle {
   font-size: 42px;
+}
+.differential-kaprice-wrapper .differential-kaprice-wrapper-slick .differential-kaprice-item p {
+  text-align: center;
+}
+@media (min-width: 1199px) {
+  .differential-kaprice-wrapper .differential-kaprice-wrapper-slick .differential-kaprice-item p {
+    text-align: left;
+  }
 }
 /*!
  * Font Awesome Free 5.9.0 by @fontawesome - https://fontawesome.com

@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Seguro Auto */
+/* Template Name: Template Imovel */
 ?>
 <?php
 require_once 'includes/header.php';
@@ -107,7 +107,7 @@ if (have_posts()) :
             </div>
 
             <!--            Conheça outras opções de seguro auto-->
-            <?php require 'includes/opcoes-seguro-auto.php'?>
+            <?php require 'includes/opcoes-seguro-imovel.php'?>
             <!--            Fim Conheça outras opções de seguro auto-->
 
             <!--            Diferenciais da Kaprice-->

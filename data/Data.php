@@ -322,4 +322,24 @@ class Data
             ],
         ];
     }
+
+    public static function consortiumImmobile() {
+        return [
+            [
+                'title' => 'FIANÇA LOCATÍCIA E TÍTULO DE CAPITALIZAÇÃO',
+                'text'  => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum dui a metus pretium tincidunt',
+                'icon'  => '/dist/imgs/opcoes-imoveis/icone-fianca.png'
+            ],
+            [
+                'title' => 'SEGURO DE CONDOMÍNIOS',
+                'text'  => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum dui a metus pretium tincidunt',
+                'icon'  => '/dist/imgs/opcoes-imoveis/icone-fianca.png'
+            ],
+            [
+                'title' => 'SEGURO RESIDENCIAL',
+                'text'  => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum dui a metus pretium tincidunt',
+                'icon'  => '/dist/imgs/opcoes-imoveis/icone-fianca.png'
+            ]
+        ];
+    }
 }

@@ -17,10 +17,10 @@
             </div>
 
             <div class="col-12">
-                <div class="pb-70 mb-100 d-flex justify-content-between depoiment-container-slick">
+                <div class="pb-70 mb-100 d-flex justify-content-between depoiment-container-slick ">
                     <?php foreach (Data::depositions() as $data) : ?>
-                    <div>
-                        <div class="depoiment-wrapper d-flex flex-column align-items-center">
+                    <div class="p-10">
+                        <div class="depoiment-wrapper d-flex flex-column align-items-center" style="padding: 40px 10px;">
                             <div class="text font-gray-400 font-size-14">
                                 <?= $data['message'] ?>
                             </div>
@@ -42,3 +42,4 @@
         </div>
     </div>
 </section>
+

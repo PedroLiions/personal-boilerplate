@@ -9,8 +9,40 @@
     justify-content flex-end;
     flex-direction row
     margin 0
+    height: 100%
 
     > li {
+      height 100%;
+      position relative;
+      display flex;
+      align-items: center
+
+      > .sub-menu {
+        display none
+        transition linear .3s
+        width 100%
+        position absolute;
+        top: 100%;
+        left: 0;
+        padding 0;
+        background $gray-700
+        > li:not(.menu-item-has-children) {
+          padding-left 12px;
+          a {
+            //color red;
+          }
+          &:before {
+            content: "";
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            left: 4px;
+            top: 12px;
+            background-color: #f7c407;
+          }
+        }
+      }
+
       a {
         text-transform uppercase
         color white
@@ -23,12 +55,10 @@
           color white
           text-shadow 1px 0 0 currentColor;
         }
-      }
-
-      // a
+      } // a
 
       &.menu-item-has-children {
-        a {
+        > a {
           &:after {
             text-rendering auto
             font-smoothing antialiased
@@ -38,20 +68,13 @@
             margin-left 4px
             color $red
             content "\f078"
-          }
-
-          // after of a
+          } // after of a
+        } // a
+        &:hover > .sub-menu {
+          display block
         }
-
-        // a
-      }
-
-      // menu item has child
-
-      .sub-menu {
-        display none
-      }
-    }
+      } // menu item has child
+    } // ul.nav-menu > li
 
     // > li
   }

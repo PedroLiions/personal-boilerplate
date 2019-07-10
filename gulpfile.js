@@ -82,6 +82,21 @@ gulp.task('css', function () {
 
 gulp.task('stylus', gulp.series(env.task.css, 'css'));
 
+gulp.task('concat-js', function () {
+    return gulp.src(
+        [
+            'node_modules/jquery/dist/jquery.js',
+            'node_modules/jquery-mask-plugin/dist/jquery.mask.min.js',
+            'node_modules/bootstrap/dist/js/bootstrap.min.js',
+            'node_modules/slick-carousel/slick/slick.min.js',
+            'node_modules/systemjs/dist/system.min.js',
+
+        ]
+    )
+        .pipe(concat('libraries.min.js', {allowEmpty: true}))
+        .pipe(gulp.dest('dist/js'))
+});
+
 /*
 * End only CSS
 * */

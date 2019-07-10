@@ -11,6 +11,10 @@ System.register(["./bootstrap/bootstrap.js"], function (exports_1, context_1) {
         execute: function () {
             /*
             * Init application
+            * Author : Pedro Lima
+            * WebSite http://plima.me
+            * 3xceler
+            * WebSite https://www.3xceler.com.br
             * */
             bootstrap_js_1.Bootstrap.init();
         }

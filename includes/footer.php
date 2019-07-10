@@ -1,7 +1,7 @@
 <footer class="footer">
 
     <div class="nav-wrapper">
-        <div class="container-fluid py-40 py-xl-0">
+        <div class="container-fluid pt-40 py-xl-0">
             <div class="row">
                 <div class="col-12 col-lg-3">
                     <div class="logo mb-40 pt-20">
@@ -18,7 +18,7 @@
                             qui sint
                             ullam.
                         </p>
-                        <a href="#" class="text-black link-underline font-weight-bold">CONTINUE LENDO</a>
+                        <a href="#" class="text-black link-underline font-weight-bold d-none d-lg-block">CONTINUE LENDO</a>
                     </div>
                     <div class="d-flex flex-row mt-30 mt-xl-85">
                         <div class="follow-kaprice d-flex justify-content-between">
@@ -51,20 +51,21 @@
         </div>
     </div>
 
-    <div class="container-fluid pt-25 pb-40">
-        <strong>&copy; <?= date('Y') ?> Kaprice Seguros</strong> | Todos os Direitos Reservados.
+    <div class="container-fluid pt-25 pb-40 footer-bar">
+        <div class="row">
+        <div class="col-12 col-lg-6 copy"><strong>&copy; <?= date('Y') ?> Kaprice Seguros</strong> | Todos os Direitos Reservados.</div>
+        <div class="col-12 col-lg-6 text-center text-lg-right xceler mt-3 mt-lg-0">
+            criação de sites  <a href="https://www.3xceler.com.br/" target="_blank" title="Ir para o site da 3xceler">
+                <img src="<?= get_template_directory_uri() ?>/dist/imgs/3xceler.png" alt="">
+            </a>
+        </div>
+        </div>
     </div>
 
 </footer>
 
 
-
-
-<script src="<?= node_modules_path() ?>/jquery/dist/jquery.min.js"></script>
-<script src="<?= node_modules_path() ?>/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
-<script src="<?= node_modules_path() ?>/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="<?= node_modules_path() ?>/slick-carousel/slick/slick.min.js"></script>
-<script src="<?= node_modules_path() ?>/systemjs/dist/system.min.js"></script>
+<script src="<?= get_template_directory_uri() ?>/dist/js/libraries.min.js"></script>
 
 <script>
     var templateUri = document.querySelector("meta[name=template-uri]").getAttribute('content');

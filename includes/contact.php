@@ -88,7 +88,7 @@
                     </div>
                 </div> <!-- col-4 -->
             </div> <!-- row -->
-        </div> <!-- container fluid -->
+        </div> <!-- container -->
 
 
 </div> <!-- background three mask -->
@@ -96,3 +96,7 @@
 </div> <!-- background one -->
 
 </div> <!-- wrapper contact form -->
+
+<div class="contact-separator-mobile d-lg-none">
+
+</div>

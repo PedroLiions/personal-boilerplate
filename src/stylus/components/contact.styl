@@ -1,7 +1,22 @@
 .wrapper-contact-form {
   @media $max-xl {
+    //border-top 2px solid $red;
+    border-bottom 2px solid $red;
+    background: url(../imgs/contact/background-mobile.png);
+    background-size cover;
+    background-repeat no-repeat
     .text-common {
       font-size 12px
+    }
+  }
+
+  .wrapper-background-one {
+    @media $max-xl {
+      background-image url('../imgs/contact/separator-top.png');
+      background-position top center;
+      background-repeat no-repeat
+      background-size contain
+      padding-top 70px;
     }
   }
   @media $min-xl {
@@ -11,13 +26,16 @@
 
     .wrapper-background-one {
       background-repeat no-repeat
-      background-image url('../imgs/background-contato-equipe-1.png');
+      background-image url('../imgs/contact/background-desktop-contact.png');
+      background-size: contain;
+      background-position: bottom right;
     }
 
+
     .wrapper-background-two {
-      background-repeat no-repeat
-      background-image url('../imgs/background-contato-equipe-2.png');
-      background-position-x 100%
+      //background-repeat no-repeat
+      //background-image url('../imgs/background-contato-equipe-2.png');
+      //background-position-x 100%
     }
 
     .wrapper-background-three-mask {
@@ -46,6 +64,7 @@
       @media $min-xl {
         margin-bottom 40px;
       }
+
       .number {
         font-size 14px;
         @media $min-xl {
@@ -62,7 +81,18 @@
           margin-right 30px;
         }
       }
-    } // number icon
+    }
+
+    // number icon
   }
 
+}
+
+// Separator Mobile
+.contact-separator-mobile {
+  background url(../imgs/contact/separator-mobile.jpg)
+  background-size cover;
+  background-position: bottom center
+  height 110px;
+  width 100%;
 }

@@ -19,7 +19,6 @@
         "glob": "^7.1.4",
         "gulp": "^4.0.2",
         "gulp-babel": "^8.0.0",
-        "gulp-concat": "*",
         "gulp-eslint": "*",
         "gulp-notify": "^3.2.0",
         "gulp-postcss": "*",
@@ -38,6 +37,7 @@
         "vanilla-text-mask": "^5.1.1"
     },
     "devDependencies": {
-        "@fortawesome/fontawesome-free": "^5.9.0"
+        "@fortawesome/fontawesome-free": "^5.9.0",
+        "gulp-concat": "^2.6.1"
     }
 }

@@ -19,6 +19,7 @@ System.register(["../slick/slick.js", "../layout/breadcrumb.js", "../mask/mask.j
                 function Bootstrap() {
                 }
                 Bootstrap.init = function () {
+                    // document.addEventListener('DOMContentLoaded', () => Bootstrap.register());
                     Bootstrap.register();
                 };
                 Bootstrap.register = function () {

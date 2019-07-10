@@ -136,29 +136,33 @@ System.register(["../environment.js"], function (exports_1, context_1) {
                 };
                 /* Slick Depoimentos */
                 Slick.prototype.slickDepoiments = function () {
-                    var slickDepoiments = __assign({}, this.defaultOptions, { centerMode: false, slidesToShow: 1, responsive: [
-                            {
-                                breakpoint: this.bpts.xl,
-                                settings: {
-                                    adaptiveWidth: true,
-                                    slidesToShow: 3,
-                                    centerMode: false,
-                                    dots: false,
-                                }
+                    var _this = this;
+                    var slickDepoiments = __assign({}, this.defaultOptions, { centerMode: false, slidesToShow: 1 });
+                    if (window.innerWidth <= this.breakpoint) {
+                        $('.depoiment-container-slick').slick(slickDepoiments);
+                    }
+                    else {
+                        window.addEventListener('resize', function () {
+                            if (window.innerWidth <= _this.breakpoint) {
+                                $('.depoiment-container-slick').slick(slickDepoiments);
                             }
-                        ] });
-                    $('.depoiment-container-slick').slick(slickDepoiments);
+                            else {
+                                $('.depoiment-container-slick').slick('unslick');
+                            }
+                        });
+                    }
                 };
                 //   Template page auto
                 Slick.prototype.slickInsuranceOptions = function () {
-                    var insurenceOptions = __assign({}, this.defaultOptions, { rows: 1, centerMode: false, slidesToShow: 1, responsive: [
+                    var insurenceOptions = __assign({}, this.defaultOptions, { rows: 1, centerMode: false, slidesToShow: 1, slidesToScroll: 1, responsive: [
                             {
-                                breakpoint: this.bpts.lg,
+                                breakpoint: 1199,
                                 settings: {
-                                    rows: 2,
-                                    adaptiveHeight: true,
-                                    centerMode: false,
+                                    rows: 1,
                                     slidesToShow: 5,
+                                    slidesToScroll: 1,
+                                    dots: false,
+                                    centerMode: false,
                                 }
                             }
                         ] });
@@ -166,13 +170,14 @@ System.register(["../environment.js"], function (exports_1, context_1) {
                 };
                 //   Diferenciais kaprice
                 Slick.prototype.slickDifferentialKaprice = function () {
-                    var differentialKaprice = __assign({}, this.defaultOptions, { centerMode: false, slidesToShow: 1, responsive: [
+                    var differentialKaprice = __assign({}, this.defaultOptions, { centerMode: false, slidesToShow: 1, rows: 1, slidesToScroll: 1, responsive: [
                             {
                                 breakpoint: this.bpts.lg,
                                 settings: {
                                     rows: 1,
                                     centerMode: false,
                                     slidesToShow: 4,
+                                    dots: false
                                 }
                             }
                         ] });

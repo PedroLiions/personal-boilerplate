@@ -4,6 +4,7 @@ import {Mask} from "../mask/mask.js";
 
 export class Bootstrap {
     static init() {
+        // document.addEventListener('DOMContentLoaded', () => Bootstrap.register());
         Bootstrap.register();
     }
 
