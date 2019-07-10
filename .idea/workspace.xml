@@ -2,37 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a36f079-5983-4cb0-bc6d-3096f4848130" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/diferenciais.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/opcoes-seguro-auto.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/opcoes-seguro-imovel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp-imovel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/seguro-para-voce.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp-para-voce.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Data.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/Data.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/bootstrap/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/bootstrap/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/layout/breadcrumb.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/layout/breadcrumb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/slick/slick.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/slick/slick.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/breadcrumb.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/breadcrumb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/o-que-dizem-sobre-nos.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/o-que-dizem-sobre-nos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylus/components/contact.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylus/components/contact.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylus/layout/contact-page-wrapper.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylus/layout/contact-page-wrapper.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylus/layout/footer.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylus/layout/footer.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylus/layout/header/nav-desktop.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylus/layout/header/nav-desktop.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylus/layout/header/nav.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylus/layout/header/nav.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylus/pages/auto.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylus/pages/auto.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ts/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ts/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ts/bootstrap/bootstrap.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ts/bootstrap/bootstrap.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ts/layout/breadcrumb.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ts/layout/breadcrumb.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ts/slick/slick.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ts/slick/slick.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp-auto.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp-auto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-home.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,11 +37,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/stylus/components/contact.styl">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tp-auto.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="36" column="61" lean-forward="true" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
+            <state relative-caret-position="381">
+              <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tp-para-voce.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="70" column="66" lean-forward="true" selection-start-line="70" selection-start-column="66" selection-end-line="70" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/page-home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="125" column="51" lean-forward="true" selection-start-line="125" selection-start-column="51" selection-end-line="125" selection-end-column="51" />
+              <folding>
+                <element signature="e#10#79#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/seguro-para-voce.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6">
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -77,7 +80,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>security-wrapper</find>
       <find>cons</find>
       <find>constru</find>
       <find>differentialKaprice</find>
@@ -107,6 +109,7 @@
       <find>container-fluid py-40 py-xl-0</find>
       <find>systemjs</find>
       <find>template-uri</find>
+      <find>:hover</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -121,8 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ts/environment.ts" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/src/stylus/components/avaliacoes.styl" />
         <option value="$PROJECT_DIR$/dist/imgs/icons/quote.svg" />
         <option value="$PROJECT_DIR$/src/stylus/components/faq.styl" />
@@ -150,11 +151,9 @@
         <option value="$PROJECT_DIR$/src/stylus/components/breadcrumb.styl" />
         <option value="$PROJECT_DIR$/src/ts/mask/mask.js" />
         <option value="$PROJECT_DIR$/src/ts/mask/mask.ts" />
-        <option value="$PROJECT_DIR$/page-home.php" />
         <option value="$PROJECT_DIR$/src/stylus/layout/contact-page-wrapper.styl" />
         <option value="$PROJECT_DIR$/includes/breadcrumb.php" />
         <option value="$PROJECT_DIR$/src/stylus/layout/header/nav.styl" />
-        <option value="$PROJECT_DIR$/src/stylus/layout/header/nav-desktop.styl" />
         <option value="$PROJECT_DIR$/includes/contact.php" />
         <option value="$PROJECT_DIR$/src/stylus/layout/footer.styl" />
         <option value="$PROJECT_DIR$/includes/o-que-dizem-sobre-nos.php" />
@@ -172,6 +171,10 @@
         <option value="$PROJECT_DIR$/includes/footer.php" />
         <option value="$PROJECT_DIR$/src/ts/layout/breadcrumb.ts" />
         <option value="$PROJECT_DIR$/src/stylus/components/contact.styl" />
+        <option value="$PROJECT_DIR$/src/stylus/layout/header/nav-desktop.styl" />
+        <option value="$PROJECT_DIR$/tp-para-voce.php" />
+        <option value="$PROJECT_DIR$/includes/seguro-para-voce.php" />
+        <option value="$PROJECT_DIR$/page-home.php" />
       </list>
     </option>
   </component>
@@ -198,20 +201,7 @@
             <path>
               <item name="kaprice" type="b2602c69:ProjectViewProjectNode" />
               <item name="kaprice" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kaprice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kaprice" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kaprice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kaprice" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -292,12 +282,12 @@
       <workItem from="1562353190299" duration="1082000" />
       <workItem from="1562587345177" duration="26494000" />
       <workItem from="1562757477696" duration="23000" />
-      <workItem from="1562757618546" duration="19627000" />
+      <workItem from="1562757618546" duration="21238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187604000" />
+    <option name="totallyTimeSpent" value="189215000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -313,7 +303,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Gulp" order="0" side_tool="true" weight="0.3295626" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4878049" visible="true" weight="0.14202128" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4878049" visible="true" weight="0.14202128" />
       <window_info id="Favorites" order="2" sideWeight="0.502193" side_tool="true" weight="0.27224737" />
       <window_info id="Structure" order="3" sideWeight="0.5121951" side_tool="true" weight="0.20135747" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -326,7 +316,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27615964" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27615964" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="12" weight="0.32901832" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -368,20 +358,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/includes/anos-de-parceria.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylus/helpers/separator.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stylus/helpers/variables.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -421,13 +397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -504,16 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="110" column="106" selection-start-line="110" selection-start-column="106" selection-end-line="110" selection-end-column="106" />
-          <folding>
-            <element signature="e#10#79#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/imgs/diferenciais/icon-experiencia.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -556,13 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylus/layout/header/nav-desktop.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -644,13 +596,6 @@
             <element signature="e#1945#2158#0" />
             <element signature="e#2170#2289#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tp-auto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="104" column="26" lean-forward="true" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -736,8 +681,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stylus/components/contact.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="36" column="61" lean-forward="true" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
+        <state relative-caret-position="394">
+          <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylus/layout/header/nav-desktop.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp-auto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp-para-voce.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="70" column="66" lean-forward="true" selection-start-line="70" selection-start-column="66" selection-end-line="70" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/seguro-para-voce.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="125" column="51" lean-forward="true" selection-start-line="125" selection-start-column="51" selection-end-line="125" selection-end-column="51" />
+          <folding>
+            <element signature="e#10#79#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
